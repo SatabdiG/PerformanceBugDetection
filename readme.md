@@ -1,0 +1,23 @@
+
+1. Assumptions : Source Code is availble for Application under Test. Source code is not required for Oracle. 
+
+Compile Source Code with --> "gcc -pg -Wall -fprofile-arcs -ftest-coverage  customBS.c -o custom" <--
+
+This creates both the gmon ang gcov etc files
+
+gprof gives function names and time each function took. 
+
+## Excute Gprof
+
+>gprof objectfile after compiltation gmon.out > analysis.txt
+
+The output is a file with the call graph as well
+
+## Execute GCov
+
+The file needs to be executed
+
+>gcov -b filename.c
+
+## We need to find the correlation as well.
+

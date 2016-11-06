@@ -1,0 +1,16 @@
+
+MID+1
+
+MID+1
+
+MID+1
+
+MID+1
+
+MID+1
+Loop Count : 5
+Number was not found!!
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s

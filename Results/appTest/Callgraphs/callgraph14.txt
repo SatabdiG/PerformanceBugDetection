@@ -1,0 +1,13 @@
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       1/1           main [14]
+[1]      0.0    0.00    0.00       1         binarySort [1]
+-----------------------------------------------
+
+Index by function name
+
+   [1] binarySort
