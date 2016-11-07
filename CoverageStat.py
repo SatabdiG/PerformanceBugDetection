@@ -28,11 +28,11 @@ for line in fpopen.readlines():
         inputdat.append(templin[0])
 
 
-
 for i in range(0,len(inputdat)):
     #Remove the file to "Runs" the .gcda file is it exists as the results are cummalative
     if os.path.isfile(filename):
         os.remove(filename)
+
 
     #execute the filename with the inputs in inputdat
     os.system("./custom "+inputdat[i])
@@ -47,8 +47,6 @@ for i in range(0,len(inputdat)):
     if os.path.isfile(os.path.join(newpath,fileName+".c.gcov")):
         os.remove(os.path.join(newpath,fileName+".c.gcov"))
     shutil.move(fileName+".c.gcov",newpath)
-
-
 
 
 #close opened files

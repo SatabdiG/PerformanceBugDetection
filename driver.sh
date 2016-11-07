@@ -2,11 +2,10 @@
 counter=0
 
 #This Script Drives the Entire Project
-python /home/tasu/Downloads/pin-3.0-76991-gcc-linux/TimeSortcode/InputModule.py
+python InputModule.py
 while [ $counter -lt 5 ]
 do
 echo "---- Running Run Number --- $counter"
-
 #Run Runner Module
 echo "Running module for Application under Test"
 ./Analyzermodulenew.sh inputrandom.txt

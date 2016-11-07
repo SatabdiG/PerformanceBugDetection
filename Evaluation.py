@@ -24,7 +24,7 @@ shutil.copy(srcfilelocApp,directory)
 shutil.copy(srcfilelocOr,directory)
 shutil.copy(srcGraph,directory)
 #Move the GCDA file
-if os.path.isfile(os.path.join(fileGCdaLoc,fileGCda)):
-    os.remove(os.path.join(fileGCdaLoc,fileGCda))
+if os.path.isfile(os.path.join(directory,fileGCda)):
+    os.remove(os.path.join(directory,fileGCda))
 shutil.move(os.path.join(fileGCdaLoc,fileGCda),directory)
 shutil.move(srcfilHTML, directory)

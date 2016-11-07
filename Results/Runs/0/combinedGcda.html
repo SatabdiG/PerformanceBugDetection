@@ -1,1 +1,225 @@
-</body></html>
+<html>
+<head>
+<title>Coverage Data </title>
+</head>
+<body style="background-color: powderblue;">
+<h1> <center> Program Summary </center></h1>
+</break>
+</break>
+<div ">        -:    0:Source:customBS.c
+</div><break>
+<div ">        -:    0:Graph:customBS.gcno
+</div><break>
+<div ">        -:    0:Data:customBS.gcda
+</div><break>
+<div ">        -:    0:Runs:1
+</div><break>
+<div ">        -:    0:Programs:1
+</div><break>
+<div ">        -:    1://Binary Sort Code written for evaluation
+</div><break>
+<div ">        -:    2:#include<stdio.h>
+</div><break>
+<div ">        -:    3:#include<stdlib.h>
+</div><break>
+<div ">        -:    4:#include<time.h>
+</div><break>
+<div ">        -:    5:
+</div><break>
+<div ">        -:    6:
+</div><break>
+<div ">        -:    7:struct DATA {
+</div><break>
+<div ">        -:    8:  int  key;
+</div><break>
+<div ">        -:    9:  int  value;
+</div><break>
+<div ">        -:   10:}  ;
+</div><break>
+<div ">        -:   11:
+</div><break>
+<div ">        -:   12:struct DATA data[15] = { {1, 100},
+</div><break>
+<div ">        -:   13:	     {5,200},
+</div><break>
+<div ">        -:   14:	     {6, 300},
+</div><break>
+<div ">        -:   15:	     {7, 700},
+</div><break>
+<div ">        -:   16:	     {8, 900},
+</div><break>
+<div ">        -:   17:	     {9, 250},
+</div><break>
+<div ">        -:   18:	     {10, 400},
+</div><break>
+<div ">        -:   19:	     {11, 600},
+</div><break>
+<div ">        -:   20:	     {12, 800},
+</div><break>
+<div ">        -:   21:	     {13, 1500},
+</div><break>
+<div ">        -:   22:	     {14, 1200},
+</div><break>
+<div ">        -:   23:	     {15, 110},
+</div><break>
+<div ">        -:   24:	     {16, 140},
+</div><break>
+<div ">        -:   25:	     {17, 133},
+</div><break>
+<div ">        -:   26:	     {18, 10} };
+</div><break>
+<div ">        -:   27:
+</div><break>
+<div ">        -:   28:int binarySort(int);
+</div><break>
+<div ">        -:   29:
+</div><break>
+<div style="color:powderpink">function main called 1 returned 100% blocks executed 70%
+</div><break><div style="color:#F15230">        1:   30:int main(int argc, char *argv[])
+</div><break><div ">        -:   31:{
+</div><break>
+<div ">        -:   32:	int input, retval;
+</div><break>
+<div ">        -:   33:    
+</div><break>
+<div style="color:#F15230">        1:   34:	if(argc!=2)
+</div><break><div style="color:powderpink">branch  0 taken 0% (fallthrough)
+</div><break><div style="color:powderpink">branch  1 taken 100%
+</div><break><div ">        -:   35:	{
+</div><break>
+<div style="color:blue">    #####:   36:		printf("Please enter ProgramName NumberToSearch !!\n");
+</div><break><div style="color:powderpink">call    0 never executed
+</div><break><div style="color:blue">    #####:   37:		exit(0);
+</div><break><div style="color:powderpink">call    0 never executed
+</div><break><div ">        -:   38:	}
+</div><break>
+<div ">        -:   39:	else
+</div><break>
+<div ">        -:   40:	{
+</div><break>
+<div ">        -:   41:		//Enter Binary Sort Code Here
+</div><break>
+<div style="color:#F15230">        1:   42:		input=atoi(argv[1]);
+</div><break><div style="color:powderpink">call    0 returned 100%
+</div><break><div style="color:#F15230">        1:   43:		retval=binarySort(input);
+</div><break><div style="color:powderpink">call    0 returned 100%
+</div><break><div style="color:#F15230">        1:   44:		if(retval == -1)
+</div><break><div style="color:powderpink">branch  0 taken 100% (fallthrough)
+</div><break><div style="color:powderpink">branch  1 taken 0%
+</div><break><div style="color:#F15230">        1:   45:			printf("\nSorry Number not found!!\n");
+</div><break><div style="color:powderpink">call    0 returned 100%
+</div><break><div ">        -:   46:		else
+</div><break>
+<div ">        -:   47:		{
+</div><break>
+<div style="color:blue">    #####:   48:			printf("\nNumber found %d\n",retval);
+</div><break><div style="color:powderpink">call    0 never executed
+</div><break><div ">        -:   49:		}	
+</div><break>
+<div ">        -:   50:		
+</div><break>
+<div ">        -:   51:	}	
+</div><break>
+<div ">        -:   52:
+</div><break>
+<div style="color:#F15230">        1:   53:	return 0;
+</div><break><div ">        -:   54:}
+</div><break>
+<div ">        -:   55:
+</div><break>
+<div style="color:powderpink">function binarySort called 1 returned 100% blocks executed 63%
+</div><break><div style="color:#F15230">        1:   56:int binarySort(int val)
+</div><break><div ">        -:   57:{
+</div><break>
+<div ">        -:   58:	int retval, midpoint;
+</div><break>
+<div style="color:#F15230">        1:   59:	int low=0;	
+</div><break><div style="color:#F15230">        1:   60:	int  high=14;	
+</div><break><div style="color:#F15230">        1:   61:	int flag=0;
+</div><break><div style="color:#F15230">        1:   62:	int besafe=0;
+</div><break><div ">        -:   63:	
+</div><break>
+<div ">        -:   64:	
+</div><break>
+<div style="color:#F15230">    10001:   65:	while(low<=high)
+</div><break><div style="color:powderpink">branch  0 taken 100%
+</div><break><div style="color:powderpink">branch  1 taken 0% (fallthrough)
+</div><break><div ">        -:   66:	{	
+</div><break>
+<div style="color:#F15230">    10000:   67:		midpoint=(low+high)/2;
+</div><break><div style="color:#F15230">    10000:   68:		besafe+=1;
+</div><break><div style="color:#F15230">    10000:   69:		printf("%d  %d %d\n",high,low,midpoint);
+</div><break><div style="color:powderpink">call    0 returned 100%
+</div><break><div ">        -:   70:		
+</div><break>
+<div style="color:#F15230">    10000:   71:		printf("%d\n",data[midpoint].key);
+</div><break><div style="color:powderpink">call    0 returned 100%
+</div><break><div style="color:#F15230">    10000:   72:		if(data[midpoint].key == val)
+</div><break><div style="color:powderpink">branch  0 taken 0% (fallthrough)
+</div><break><div style="color:powderpink">branch  1 taken 100%
+</div><break><div ">        -:   73:		{
+</div><break>
+<div ">        -:   74:			//Found
+</div><break>
+<div style="color:blue">    #####:   75:			printf("Found!!\n");
+</div><break><div style="color:powderpink">call    0 never executed
+</div><break><div style="color:blue">    #####:   76:			flag=1;
+</div><break><div style="color:blue">    #####:   77:			return data[midpoint].value;
+</div><break><div ">        -:   78:			
+</div><break>
+<div ">        -:   79:		}else
+</div><break>
+<div ">        -:   80:		{
+</div><break>
+<div ">        -:   81:		   //create new midpoint
+</div><break>
+<div style="color:#F15230">    10000:   82:	          if(data[midpoint].key <= val)
+</div><break><div style="color:powderpink">branch  0 taken 100% (fallthrough)
+</div><break><div style="color:powderpink">branch  1 taken 0%
+</div><break><div ">        -:   83:		 {
+</div><break>
+<div style="color:#F15230">    10000:   84:		   low=midpoint;
+</div><break><div style="color:#F15230">    10000:   85:		   high=high;		
+</div><break><div ">        -:   86:                 }
+</div><break>
+<div ">        -:   87:		  else
+</div><break>
+<div ">        -:   88:		{
+</div><break>
+<div style="color:blue">    #####:   89:                  high=midpoint;
+</div><break><div style="color:blue">    #####:   90:		  low=low;	
+</div><break><div ">        -:   91:		}
+</div><break>
+<div ">        -:   92:		 
+</div><break>
+<div ">        -:   93:		}
+</div><break>
+<div style="color:#F15230">    10000:   94:		if(besafe>=10000)
+</div><break><div style="color:powderpink">branch  0 taken 1% (fallthrough)
+</div><break><div style="color:powderpink">branch  1 taken 99%
+</div><break><div ">        -:   95:		{
+</div><break>
+<div style="color:#F15230">        1:   96:			return -1;
+</div><break><div ">        -:   97:		} 
+</div><break>
+<div ">        -:   98:		
+</div><break>
+<div ">        -:   99:	}
+</div><break>
+<div style="color:blue">    #####:  100:	if(flag == 0)
+</div><break><div style="color:powderpink">branch  0 never executed
+</div><break><div style="color:powderpink">branch  1 never executed
+</div><break><div ">        -:  101:	{
+</div><break>
+<div style="color:blue">    #####:  102:		high=-1;
+</div><break><div style="color:blue">    #####:  103:		return high;
+</div><break><div ">        -:  104:		
+</div><break>
+<div ">        -:  105:	}
+</div><break>
+<div ">        -:  106:		
+</div><break>
+<div ">        -:  107:
+</div><break>
+<div style="color:blue">    #####:  108:}
+</div><break></body></html>

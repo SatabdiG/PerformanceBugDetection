@@ -8,6 +8,7 @@
 #Location of OutofRuns for Application under test
 
 import os.path
+import shutil
 
 #Globalvariable that decides that keeps the margin of how much the testinput time needs to be greater than the input time for the
 #oracle to be considered
@@ -15,17 +16,29 @@ greaterthan=3
 
 loc1="./Results/appTest"
 loc2="./Results/Oracle"
+fileName="customBS"
+fileGCda=fileName+".c.gcov"
+cummugcdaloc="./Results/Runs"
+fileGCda=fileName+".c.gcov"
+
 
 applicationunderTestNames=[]
 applicationunderTestLocations=[]
 oracleNames=[]
 oracleLocations=[]
 
+
+if (os.path.isfile(fileGCda)):
+    if(os.path.isfile(os.path.join(cummugcdaloc,fileGCda))):
+        os.remove(os.path.join(os.path.join(cummugcdaloc,fileGCda)))
+    shutil.copy(fileGCda, cummugcdaloc)
+
 #create the Input Array
 inparray=[]
-ifile=open("inputrandom.txt","r+");
+ifile=open("inputrandom.txt","r+")
 for li in ifile.readlines():
     inparray.append(int(li.strip("\n")))
+
 
 
 #Get name and locations for the Application Under Test files

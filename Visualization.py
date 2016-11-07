@@ -86,27 +86,39 @@ fgcov=open(os.path.join(fileGCdaLoc,fileGCda), "r+")
 #Result html file
 fRes=open("combinedGcda.html", "w+")
 
-print >> fRes, """<html>
+fRes.write( """<html>
 <head>
 <title>Coverage Data </title>
 </head>
 <body style="background-color: powderblue;">
-"""
-for dat in fRes.readlines():
-    print(dat)
+<h1> <center> Program Summary </center></h1>
+</break>
+</break>
+""")
+for dat in fgcov.readlines():
     temp=dat.split(":")
-    linecount=temp[0]
-    if linecount != "-":
+    linecount=temp[0].strip()
+    if "-" not in linecount:
         if linecount == "#####":
-            print >> fRes, """<div style="background-color:blue">%s</div><break>""" %(dat)
+           fRes.write("""<div style="color:blue">%s</div><break>""" %(dat))
         else:
-            if int(linecount)>=0:
-                print >> fRes, """<div style="background-color:deepblue">%s</div><break>""" % (dat)
+            if "function" in linecount:
+               fRes.write("""<div style="color:powderpink">%s</div><break>""" % (dat))
+            else:
+                if "call" in linecount:
+                    fRes.write("""<div style="color:powderpink">%s</div><break>""" % (dat))
+                else:
+                    if "branch" in linecount:
+                        fRes.write("""<div style="color:powderpink">%s</div><break>""" % (dat))
+                    else:
+                        if int(linecount)>=0:
+                            fRes.write("""<div style="color:#F15230">%s</div><break>""" % (dat))
     else:
         print >> fRes, """<div ">%s</div><break>""" % (dat)
 
 
-print >> fRes, """</body></html>"""
+
+fRes.write("""</body></html>""")
 
 #Close the Open file
 fOpen.close()
