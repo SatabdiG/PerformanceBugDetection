@@ -10,29 +10,29 @@ The Source Code is composed of a series of Python Scripts that execute one after
 
 
 **Code Components**
-1. Analyzermodulenew.sh --> Generates time, gcov, gprof information and stores it in ./Results/appTest/run*count* file for each count in the input file.
-2. AnalyzerModuleOracle.sh --> Executes the Oracle gets time information. Or the time information can be provided in a file. It stores the information in ./Results/Oracle/run*count* for each count in file.
-3. FileEdit.py : Analyzes the time information. Choose traces who have times greater than the oracle time by a certain percentage. **BadTraces**
-4. CoverageStat.py: Create overalpping block traces from the previously chosen **bad traces**
-5. SeminalBehaviour.py - Create the seminal feature set from the aforementioned block traces. 
-6. Analysis.py - Generates new population of inputs. 
-7. Gene.py - Contains the genetic algorithm which is used by analysis.py to generate the new inputs. It uses *LMS* to derive the corelation between the seminal features and the new inputs. We could use another learning tool to summplement the input generation. 
-8. Visualization.py - Creates a graph for input time of application under test vs input time for oracle for the current population. Creates a cummalative coverage html page for the current population where overalpping areas are highlighted in red and the lines not executed at all are highlighted in blue. 
-9. Evaluation.py - Moves the graph and the html stat file to folder ./Results/Runs/Runnum
+* Analyzermodulenew.sh --> Generates time, gcov, gprof information and stores it in ./Results/appTest/run*count* file for each count in the input file.
+* AnalyzerModuleOracle.sh --> Executes the Oracle gets time information. Or the time information can be provided in a file. It stores the information in ./Results/Oracle/run*count* for each count in file.
+* FileEdit.py : Analyzes the time information. Choose traces who have times greater than the oracle time by a certain percentage. **BadTraces**
+* CoverageStat.py: Create overalpping block traces from the previously chosen **bad traces**
+* SeminalBehaviour.py - Create the seminal feature set from the aforementioned block traces. 
+* Analysis.py - Generates new population of inputs. 
+* Gene.py - Contains the genetic algorithm which is used by analysis.py to generate the new inputs. It uses *LMS* to derive the corelation between the seminal features and the new inputs. We could use another learning tool to summplement the input generation. 
+* Visualization.py - Creates a graph for input time of application under test vs input time for oracle for the current population. Creates a cummalative coverage html page for the current population where overalpping areas are highlighted in red and the lines not executed at all are highlighted in blue. 
+* Evaluation.py - Moves the graph and the html stat file to folder ./Results/Runs/Runnum
 
 The Process iterates over again generating new input for each run.
 
 **Parts that can be Switched out**
-1. Features chosen for seminal SeminalBehaviour can be switched. Right now inputs from stdin and function frequency count is considered.
-2. The Learning that generates the new population can be changed.
-3. The Profiling tool can be switched. 
+* Features chosen for seminal SeminalBehaviour can be switched. Right now inputs from stdin and function frequency count is considered.
+* The Learning that generates the new population can be changed.
+* The Profiling tool can be switched. 
 
 **Current test Code**
 *Application under Test*: CustomBS.c -> an application of binary sort off the internet. 
 *Oracle*: bs.o -> (Source is not required) A benchmark implementation from the site : WCET 
 
 **Generated status file**
-[link]./Results/Runs/0/combinedGcda.html
+[link](./Results/Runs/0/combinedGcda.html)
 
 **Current Project Architecture**
 ![alt-text](./Results/Runs/OverallArchitecture.png "OverallArchitecture")
