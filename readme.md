@@ -7,7 +7,7 @@ The Project tries to find out performance bugs, areas in code that give poor per
 
 The Source Code is composed of a series of Python Scripts that execute one after the other. The *driver.sh* contains all the information and executes the python script in order.
 
-1. Assumptions : Source Code is availble for Application under Test. Source code is not required for Oracle. 
+1. Assumptions : Source Code is available for Application under Test. Source code is not required for Oracle. 
 2. The initial input file is provided in either a file or added to the *InputModule.py*
 
 
