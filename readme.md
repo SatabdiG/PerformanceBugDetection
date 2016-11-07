@@ -7,7 +7,7 @@ The Project tries to find out performance bugs, areas in code that give poor per
 
 The Source Code is composed of a series of Python Scripts that execute one after the other. The *driver.sh* contains all the information and executes the python script in order.
 
-1. Assumptions : Source Code is availble for Application under Test. Source code is not required for Oracle. 
+1. Assumptions : Source Code is available for Application under Test. Source code is not required for Oracle. 
 2. The initial input file is provided in either a file or added to the *InputModule.py*
 
 
@@ -18,7 +18,7 @@ The Source Code is composed of a series of Python Scripts that execute one after
 * CoverageStat.py: Create overalpping block traces from the previously chosen **bad traces**
 * SeminalBehaviour.py - Create the seminal feature set from the aforementioned block traces. 
 * Analysis.py - Generates new population of inputs. 
-* Gene.py - Contains the genetic algorithm which is used by analysis.py to generate the new inputs. It uses *LMS* to derive the corelation between the seminal features and the new inputs. We could use another learning tool to summplement the input generation. 
+* Gene.py - Contains the genetic algorithm which is used by analysis.py to generate the new inputs. It uses *LMS* to derive the corelation between the seminal features and the new inputs. We could use another learning tool to replace/supplement the input generation. 
 * Visualization.py - Creates a graph for input time of application under test vs input time for oracle for the current population. Creates a cummalative coverage html page for the current population where overalpping areas are highlighted in red and the lines not executed at all are highlighted in blue. 
 * Evaluation.py - Moves the graph and the html stat file to folder ./Results/Runs/Runnum
 
