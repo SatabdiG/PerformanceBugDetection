@@ -3,6 +3,8 @@
 
 **Introduction** 
 
+The Project tries to find out performance bugs, areas in code that give poor performance by comparing with another oracle. It uses Seminal Behaviour, genetic algorithm and Learning techniques to generate new inputs for which the program takes a longer time exposing areas of the code that take longer for the given input.
+
 The Source Code is composed of a series of Python Scripts that execute one after the other. The *driver.sh* contains all the information and executes the python script in order.
 
 1. Assumptions : Source Code is availble for Application under Test. Source code is not required for Oracle. 
@@ -34,7 +36,13 @@ The Process iterates over again generating new input for each run.
 **Generated status file**
 [link](./Results/Runs/0/combinedGcda.html)
 
+
 **Current Project Architecture**
+
 ![alt-text](./Results/Runs/OverallArchitecture.png "OverallArchitecture")
+
+**Reference**
+- Exploiting Statistical Correlations for Proactive Prediction of Program Behaviors - Yunlian Jian et all
+- An Input-Centric Paradigm for Program Dynamic Optimizations - Kai Tian, Yunlian Jian
 
 
