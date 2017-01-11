@@ -3,8 +3,6 @@
 #Input: config.txt. It has locations from where to access the index.html file
 #Predecessors: The TestSuite has been Run and lcov files have been generated
 
-
-
 from bs4 import BeautifulSoup
 
 from DataStructures import Stack

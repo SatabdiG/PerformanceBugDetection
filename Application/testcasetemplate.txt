@@ -1,0 +1,7 @@
+driver = self.driver
+driver.get(url)
+self.assertIn(text, driver.title)
+elem = driver.find_element_by_name(htmlelem)
+elem.send_keys(data)
+elem.send_keys(htmlkey)
+assert "No results found." not in driver.page_source

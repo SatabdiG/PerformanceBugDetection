@@ -1,4 +1,4 @@
-//Binary Sort Code written for evaluation
+//Binary Sort Code that serves as Application Under Test (AUT)
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
