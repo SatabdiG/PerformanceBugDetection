@@ -1,23 +1,40 @@
 #Name:unitesteclassassembler
 #version:1.0
-#description:Accesses all the txt files from the TestCase module and constructs the TestSuiteRunner.py
+#description:Accesses all the txt files from the TestCase module and constructs the TestSuiteRunnerOracle.py for the oracle
 
 import os.path
+import sys
 
 #filepathname
 filename=[]
 filepath=[]
 
+
+
+#Get argument from commandline
+
+#Runno contains the Run number
+runno=sys.argv[1:]
+runno=map(str,runno)
+runno=''.join(runno)
+
+tempstr=runno.split("/")
+foldername=tempstr[len(tempstr)-2]
+
+testcasenum=foldername.split("TC")
+testcasenum=testcasenum[len(testcasenum)-1]
+
 loc="./TestCase"
-writefile=os.path.join("./", "TestSuiteRunnerExper.py")
+writefile=os.path.join("./", "TestSuiteRunnerExperOr.py")
 
 writehandle=open(writefile, "w+")
 
 
 for file in os.listdir(loc):
-    filename.append(file)
-    locs=os.path.join(loc, file)
-    filepath.append(locs)
+    if testcasenum in file:
+        filename.append(file)
+        locs=os.path.join(loc, file)
+        filepath.append(locs)
 
 count=0
 
@@ -33,19 +50,17 @@ writehandle.write("\n")
 writehandle.write("import time")
 writehandle.write("\n")
 
-
 #Set Up class structure
 
-writehandle.write("class TestSearch(unittest.TestCase):")
+writehandle.write("class TestSearchChrome(unittest.TestCase):")
 writehandle.write("\n")
 writehandle.write("\t" + "def setUp(self):")
 writehandle.write("\n")
-writehandle.write("\t\t" + "binary = FirefoxBinary('/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox')")
-writehandle.write("\n")
-writehandle.write("\t\t" + "self.driver = webdriver.Firefox(firefox_binary=binary)")
+writehandle.write("\t\t" + "self.driver=webdriver.Chrome(executable_path='/home/tasu/DEV/chromedriver')")
 writehandle.write("\n")
 writehandle.write("\t\t" + "self.starttime=time.time()")
 writehandle.write("\n")
+
 
 #for every testcase in the folder
 for fil in filepath:
@@ -68,13 +83,14 @@ writehandle.write("\t" + "def tearDown(self):")
 writehandle.write("\n")
 writehandle.write("\t\t" + "self.driver.quit()")
 writehandle.write("\n")
+writehandle.write("\n")
 writehandle.write("\t\t" + "t = time.time() - self.starttime")
 writehandle.write("\n")
 writehandle.write("\t\t" + 'print "%s: %.3f" % (self.id(), t)')
 writehandle.write("\n")
 writehandle.write("\n")
 
-writehandle.write("suite = unittest.TestLoader().loadTestsFromTestCase(TestSearch)")
+writehandle.write("suite = unittest.TestLoader().loadTestsFromTestCase(TestSearchChrome)")
 writehandle.write("\n")
 writehandle.write("unittest.TextTestRunner(verbosity=2).run(suite)")
 writehandle.write("\n")

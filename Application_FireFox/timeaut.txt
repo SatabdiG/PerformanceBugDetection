@@ -1,0 +1,14 @@
+test_0 (__main__.TestSearch) ... ok
+test_1 (__main__.TestSearch) ... ok
+test_2 (__main__.TestSearch) ... ok
+test_3 (__main__.TestSearch) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 28.745s
+
+OK
+'NoneType' object has no attribute 'path'
+__main__.TestSearch.test_0: 1.820
+'NoneType' object has no attribute 'path'
+__main__.TestSearch.test_1: 1.777
+

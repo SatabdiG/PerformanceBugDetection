@@ -1,6 +1,7 @@
 #Description: This creates the time information for each testcase in "Parsed File" specific Run
 # This runs after both AUTrunner and chromerunner have finished.
 #It takes as an input "timeaut.txt" and "timechrome.txt"
+#Output: AUTtime || OracleTime
 import os
 import sys
 
@@ -8,8 +9,13 @@ import sys
 runno=sys.argv[1:]
 runno=map(str,runno)
 runno=''.join(runno)
-
-pathname=os.path.join("./ParsedFiles/Run"+runno)
+#
+# tempstr=runno.split("/")
+# foldername=tempstr[len(tempstr)-2]
+#
+# testcasenum=foldername.split("TC")
+# testcasenum=testcasenum[len(testcasenum)-1]
+# pathname=os.path.join("./ParsedFiles/Run"+runno)
 
 
 #Timeinfo for AUT :
@@ -41,14 +47,14 @@ for eachlin in chromefil.readlines():
         #make an entry in the dictionary
         chromeinfo[name]=float(val.strip("\n"))
 
-count=0
+#count=0
 for key in autinfo.keys():
     #create a file in location
-    temploc=os.path.join(pathname, "TC"+str(count))
-    timefil=open(os.path.join(temploc,"time.txt"),"w")
+    #temploc=os.path.join(pathname, "TC"+str(count))
+    timefil=open(os.path.join(runno,"time.txt"),"w")
     timefil.write(str(autinfo[key])+":"+str(chromeinfo[key]))
     timefil.close()
-    count+=1
+    #count+=1
 
 autfil.close()
 chromefil.close()

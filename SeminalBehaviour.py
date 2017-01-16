@@ -6,6 +6,7 @@
 
 import os.path
 import re
+
 #get location of coverage file for each input
 location="./Results/appTest/CoverageStats"
 filename='customBS.c.gcov'

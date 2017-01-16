@@ -1,0 +1,7 @@
+test_search_in_python_org (__main__.PythonOrgChrome) ... ok
+test_serach (__main__.PythonOrgChrome) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 7.636s
+
+OK

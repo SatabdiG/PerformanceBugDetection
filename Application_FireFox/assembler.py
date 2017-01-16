@@ -3,15 +3,13 @@
 #The template file is : testcasetemplate.txt
 #The feature set from which to populate the testcase folder is in "TestCaseFeature"
 #It then sets up the Folderstructure in "Parsed Files" folder. It creates a folder with the name of the current Run. Then for each testcase
-#it creates documents : url.txt, HTML elements.txt (Feature structutes)
+#It creates documents : url.txt, HTML elements.txt (Feature structutes)
 
 import os
 import sys
 
 ## Global variables & file paths
 par="./ParsedFiles"
-#Contains the features from the learning module
-testcasefeatures="./TestCaseFeatures"
 
 #The file that conatins the testcase template
 #testcasetemplate=open("testcasetemplate.txt", "r+")
@@ -25,6 +23,9 @@ runno=''.join(runno)
 #filename to be created in Parsedfiles for the current Run
 currfolname="Run"+runno
 
+#Contains the features from the learning module
+runnum="Run"+runno
+testcasefeatures=os.path.join("./TestCaseFeatures",runnum)
 
 #create folder structure in Parsed files
 ## Create the Run folder in ParsedFiles
@@ -63,7 +64,6 @@ for fil in os.listdir(testcasefeatures):
         elif (dataname == "htmlkey"):
             val=value.strip("\n")
             val=val.strip('"')
-            print(val)
             htmlkey.append(val)
 
     #Update the dictionary
@@ -127,7 +127,6 @@ for i in range(0,count):
     testcasefile.write("\n")
     testcasefile.close()
     testcasetemplate.close()
-    newcount+=1
     urlfil.close()
     htmlfil.close()
     htmlkey.close()

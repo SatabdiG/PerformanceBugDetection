@@ -10,16 +10,29 @@ import os.path
 import sys
 
 
+#
+#
+# #current testcase --> Obtained from console
+# testcasenum=sys.argv[1:]
+# testcasenum=map(str, testcasenum)
+# testcasenum=''.join(testcasenum)
 
 
-#current testcase --> Obtained from console
-testcasenum=sys.argv[1:]
-testcasenum=map(str, testcasenum)
-testcasenum=''.join(testcasenum)
+#Get argument from commandline
 
+#Runno contains the Run number
+runno=sys.argv[1:]
+runno=map(str,runno)
+runno=''.join(runno)
 
+tempstr=runno.split("/")
+foldername=tempstr[len(tempstr)-2]
 
-parsedfileloc="./ParsedFiles"
+testcasenum=foldername.split("TC")
+testcasenum=testcasenum[len(testcasenum)-1]
+
+#parsedfileloc="./ParsedFiles"
+parsedfileloc=runno
 filloc="./Data"
 #Contains the location for all files in the Data Folder
 filelocs=[]
@@ -42,6 +55,8 @@ elsecounter=[]
 filenumdict={}
 #Contain the mapping
 linenumdict={}
+
+
 
 #create the TC@nummap in ParsedFiles --> MApping file
 filwrite=open(os.path.join(parsedfileloc, testcasenum+"map.txt"), "w+")

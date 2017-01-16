@@ -1,0 +1,561 @@
+1483989857057	geckodriver	INFO	Listening on 127.0.0.1:54102
+1483989858053	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eH6H5j1Rnp76
+1483989858054	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483989858059	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33503
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483989859936	Marionette	INFO	Listening on port 33503
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15398): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15398): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15398): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483989864886	Marionette	INFO	New connections will no longer be accepted
+[Child 15398] WARNING: pipe error (15): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 15398] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 15398] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1483989864936	geckodriver	INFO	Listening on 127.0.0.1:37497
+1483989865933	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.nJN3sLtnCFx2
+1483989865934	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483989865937	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36784
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483989867469	Marionette	INFO	Listening on port 36784
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15506): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15506): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15506): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483989872155	Marionette	INFO	New connections will no longer be accepted
+[Child 15506] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 15506] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1483989872212	geckodriver	INFO	Listening on 127.0.0.1:45462
+1483989873206	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.GeS1KLcKmaaW
+1483989873206	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483989873208	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43550
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483989874741	Marionette	INFO	Listening on port 43550
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15611): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15611): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15611): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483989880056	Marionette	INFO	New connections will no longer be accepted
+[Child 15611] WARNING: pipe error (3): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 15611] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 15611] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1483989880112	geckodriver	INFO	Listening on 127.0.0.1:54139
+1483989881106	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.GTrzgR1uh8Yw
+1483989881106	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483989881110	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35780
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483989882624	Marionette	INFO	Listening on port 35780
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15717): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15717): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15717): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483989887243	Marionette	INFO	New connections will no longer be accepted
+[Child 15717] WARNING: pipe error (15): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 15717] WARNING: pipe error (3): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 15717] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 15717] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1483989966002	geckodriver	INFO	Listening on 127.0.0.1:40912
+1483989967001	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.UFuzSQtYJptX
+1483989967002	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483989967005	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45043
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483989968566	Marionette	INFO	Listening on port 45043
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15937): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15937): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:15937): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483989973287	Marionette	INFO	New connections will no longer be accepted
+[Child 15937] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 15937] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1483989973344	geckodriver	INFO	Listening on 127.0.0.1:39182
+1483989974342	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.MSf6SIWV4EyX
+1483989974343	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483989974346	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38135
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483989975855	Marionette	INFO	Listening on port 38135
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16055): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16055): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16055): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483989980713	Marionette	INFO	New connections will no longer be accepted
+[Child 16055] WARNING: pipe error (3): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 16055] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 16055] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1483989980775	geckodriver	INFO	Listening on 127.0.0.1:34668
+1483989981770	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.g91MX0phvWiq
+1483989981771	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483989981773	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34415
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483989983302	Marionette	INFO	Listening on port 34415
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16162): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16162): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16162): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483989988037	Marionette	INFO	New connections will no longer be accepted
+[Child 16162] WARNING: pipe error (3): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 16162] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 16162] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1483989988098	geckodriver	INFO	Listening on 127.0.0.1:41443
+1483989989096	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.QLTuVZRe6aIL
+1483989989096	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483989989099	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35478
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483989990694	Marionette	INFO	Listening on port 35478
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16268): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16268): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16268): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483989995417	Marionette	INFO	New connections will no longer be accepted
+[Child 16268] WARNING: pipe error (3): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 16268] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 16268] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1483990033394	geckodriver	INFO	Listening on 127.0.0.1:50460
+1483990034393	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.qH7JusnnZghY
+1483990034394	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483990034398	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43735
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483990035990	Marionette	INFO	Listening on port 43735
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16397): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16397): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16397): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483990040807	geckodriver	INFO	Listening on 127.0.0.1:37138
+1483990041805	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.K2BDMvooR1u0
+1483990041805	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483990041808	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42306
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483990043363	Marionette	INFO	Listening on port 42306
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16501): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16501): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16501): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483990048222	geckodriver	INFO	Listening on 127.0.0.1:55192
+1483990049216	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.wfqXCoFNVX1C
+1483990049217	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483990049222	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44793
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483990050794	Marionette	INFO	Listening on port 44793
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16606): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16606): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16606): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1483990055756	geckodriver	INFO	Listening on 127.0.0.1:37265
+1483990056762	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.hnxGbR4KZ6dj
+1483990056763	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1483990056770	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33203
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1483990058971	Marionette	INFO	Listening on port 33203
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16710): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16710): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:16710): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484089843189	geckodriver	INFO	Listening on 127.0.0.1:47041
+1484089844175	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.JNP41gHAteUu
+1484089844176	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484089844184	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34501
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484089846987	Marionette	INFO	Listening on port 34501
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22469): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22469): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22469): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484089852513	Marionette	INFO	New connections will no longer be accepted
+[Child 22469] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 22469] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484089852586	geckodriver	INFO	Listening on 127.0.0.1:60002
+1484089853569	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.jy1vHS4YjCYl
+1484089853570	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484089853574	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33545
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484089855203	Marionette	INFO	Listening on port 33545
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22579): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22579): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22579): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484089860038	Marionette	INFO	New connections will no longer be accepted
+[Child 22579] WARNING: pipe error (3): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 22579] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 22579] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484089860096	geckodriver	INFO	Listening on 127.0.0.1:60483
+1484089861092	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.KRfXaKZ58UK3
+1484089861093	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484089861095	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46607
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484089862642	Marionette	INFO	Listening on port 46607
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22685): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22685): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22685): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484089867421	Marionette	INFO	New connections will no longer be accepted
+[Child 22685] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 22685] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484089867474	geckodriver	INFO	Listening on 127.0.0.1:44598
+1484089868470	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.OuXlDsJ7wu8d
+1484089868471	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484089868474	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40852
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484089870062	Marionette	INFO	Listening on port 40852
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22792): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22792): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22792): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484089874784	Marionette	INFO	New connections will no longer be accepted
+[Child 22792] WARNING: pipe error (15): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 22792] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 22792] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484089893042	geckodriver	INFO	Listening on 127.0.0.1:45474
+1484089894041	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.UAuAa0z285Ga
+1484089894042	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484089894045	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36148
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484089895662	Marionette	INFO	Listening on port 36148
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22912): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22912): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:22912): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484089900441	Marionette	INFO	New connections will no longer be accepted
+[Child 22912] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 22912] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484089900500	geckodriver	INFO	Listening on 127.0.0.1:47615
+1484089901497	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.qWA2czhgmwKJ
+1484089901498	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484089901501	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32882
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484089903280	Marionette	INFO	Listening on port 32882
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23019): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23019): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23019): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484089908334	Marionette	INFO	New connections will no longer be accepted
+[Child 23019] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 23019] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484089908388	geckodriver	INFO	Listening on 127.0.0.1:45763
+1484089909384	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.iofb7ea0c5R6
+1484089909385	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484089909387	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39493
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484089910927	Marionette	INFO	Listening on port 39493
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23131): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23131): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23131): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484089915802	Marionette	INFO	New connections will no longer be accepted
+[Child 23131] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 23131] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484089915887	geckodriver	INFO	Listening on 127.0.0.1:36767
+1484089916880	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.mYgYpUJxuuDQ
+1484089916881	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484089916884	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33969
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484089918491	Marionette	INFO	Listening on port 33969
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23237): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23237): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23237): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484089923369	Marionette	INFO	New connections will no longer be accepted
+[Child 23237] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 23237] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484090160272	geckodriver	INFO	Listening on 127.0.0.1:42818
+1484090161201	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.CceKqKeo19v8
+1484090161202	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090161208	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45740
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090162861	Marionette	INFO	Listening on port 45740
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23533): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23533): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23533): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090169729	geckodriver	INFO	Listening on 127.0.0.1:42241
+1484090170760	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.NlfzZKFVVMJ6
+1484090170760	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090170762	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42021
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090173160	Marionette	INFO	Listening on port 42021
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23640): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23640): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23640): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090181784	geckodriver	INFO	Listening on 127.0.0.1:41590
+1484090182782	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.GG0bNvHG8mUh
+1484090182782	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090182785	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32955
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090185742	Marionette	INFO	Listening on port 32955
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23749): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23749): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23749): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090193052	geckodriver	INFO	Listening on 127.0.0.1:37147
+1484090194030	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.FAz4KtmB1oYv
+1484090194031	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090194039	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33189
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090196803	Marionette	INFO	Listening on port 33189
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23866): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23866): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:23866): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090269476	geckodriver	INFO	Listening on 127.0.0.1:42451
+1484090270473	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.CiwvHhJ8sG2Z
+1484090270474	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090270478	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34847
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090272250	Marionette	INFO	Listening on port 34847
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24046): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24046): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24046): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090277878	Marionette	INFO	New connections will no longer be accepted
+[Child 24046] WARNING: pipe error (15): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 24046] WARNING: pipe error (3): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 24046] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 24046] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484090277950	geckodriver	INFO	Listening on 127.0.0.1:59314
+1484090278945	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.f6AkqT9c6KmS
+1484090278946	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090278948	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33417
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090280507	Marionette	INFO	Listening on port 33417
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24157): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24157): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24157): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090286970	Marionette	INFO	New connections will no longer be accepted
+[Child 24157] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 24157] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484090287032	geckodriver	INFO	Listening on 127.0.0.1:48682
+1484090288028	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.RRIRpgvNF3pi
+1484090288029	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090288031	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37646
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090289575	Marionette	INFO	Listening on port 37646
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24262): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24262): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24262): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090295224	Marionette	INFO	New connections will no longer be accepted
+[Child 24262] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 24262] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484090295279	geckodriver	INFO	Listening on 127.0.0.1:53782
+1484090296277	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fqy3UtByA8GT
+1484090296277	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090296279	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42476
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090298018	Marionette	INFO	Listening on port 42476
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24369): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24369): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24369): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090304396	Marionette	INFO	New connections will no longer be accepted
+[Child 24369] WARNING: pipe error (15): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 24369] WARNING: pipe error (3): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 24369] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 24369] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484090642970	geckodriver	INFO	Listening on 127.0.0.1:58447
+1484090643970	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.gplgPlo2uBS7
+1484090643970	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090643974	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45127
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090645471	Marionette	INFO	Listening on port 45127
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24635): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24635): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24635): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090650019	geckodriver	INFO	Listening on 127.0.0.1:55668
+1484090651002	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.LRb5FM6ps2lG
+1484090651003	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090651004	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42905
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090652636	Marionette	INFO	Listening on port 42905
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24740): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24740): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:24740): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090899139	geckodriver	INFO	Listening on 127.0.0.1:39016
+1484090900136	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.WqakKu7ywCjx
+1484090900137	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090900140	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40787
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090901652	Marionette	INFO	Listening on port 40787
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25008): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25008): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25008): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090906346	geckodriver	INFO	Listening on 127.0.0.1:48737
+1484090907345	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.FifKHEbgFhu2
+1484090907346	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484090907357	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38507
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484090909016	Marionette	INFO	Listening on port 38507
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25113): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25113): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25113): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484090999474	geckodriver	INFO	Listening on 127.0.0.1:35305
+1484091000473	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.YHhHIEocnoRX
+1484091000474	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484091000477	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34581
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484091002010	Marionette	INFO	Listening on port 34581
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25273): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25273): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25273): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484091006620	Marionette	INFO	New connections will no longer be accepted
+[Child 25273] WARNING: pipe error (3): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 25273] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 25273] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484091006679	geckodriver	INFO	Listening on 127.0.0.1:35375
+1484091007676	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.nUigAE88NuU7
+1484091007676	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484091007678	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38450
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484091009239	Marionette	INFO	Listening on port 38450
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25377): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25377): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25377): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484091013790	Marionette	INFO	New connections will no longer be accepted
+[Child 25377] WARNING: pipe error (15): Connection reset by peer: file /home/tasu/Mozilla/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[Child 25377] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 25377] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484091013838	geckodriver	INFO	Listening on 127.0.0.1:47891
+1484091014830	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.0B6wlliMazBm
+1484091014831	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484091014836	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41528
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484091016337	Marionette	INFO	Listening on port 41528
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25478): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25478): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25478): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484091021044	Marionette	INFO	New connections will no longer be accepted
+[Child 25478] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 25478] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+1484091021094	geckodriver	INFO	Listening on 127.0.0.1:53207
+1484091022092	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.SSkktunu6W9L
+1484091022093	geckodriver::marionette	INFO	Starting browser /home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484091022095	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36580
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1484091023707	Marionette	INFO	Listening on port 36580
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25580): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25580): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/plugin-container:25580): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484091028178	Marionette	INFO	New connections will no longer be accepted
+[Child 25580] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+[Child 25580] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
