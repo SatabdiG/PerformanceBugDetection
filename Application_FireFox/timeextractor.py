@@ -47,11 +47,12 @@ for eachlin in chromefil.readlines():
         #make an entry in the dictionary
         chromeinfo[name]=float(val.strip("\n"))
 
+fileloc="./ParsedFiles/Run"+runno
 #count=0
 for key in autinfo.keys():
     #create a file in location
     #temploc=os.path.join(pathname, "TC"+str(count))
-    timefil=open(os.path.join(runno,"time.txt"),"w")
+    timefil=open(os.path.join(fileloc,"time.txt"),"w")
     timefil.write(str(autinfo[key])+":"+str(chromeinfo[key]))
     timefil.close()
     #count+=1

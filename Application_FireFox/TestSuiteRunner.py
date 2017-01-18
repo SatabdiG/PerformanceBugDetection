@@ -7,11 +7,12 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
 class PythonOrgSerach(unittest.TestCase):
     def setUp(self):
-        binary = FirefoxBinary('/home/tasu/Mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox')
+        binary = FirefoxBinary('/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox')
         self.driver = webdriver.Firefox(firefox_binary=binary)
 
     def test_search_in_python_org(self):

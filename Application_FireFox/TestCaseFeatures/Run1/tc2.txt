@@ -1,0 +1,5 @@
+url="http://www.python.org"
+text="Python"
+htmlelem="q"
+data="abcd"
+htmlkey="Keys.RETURN"

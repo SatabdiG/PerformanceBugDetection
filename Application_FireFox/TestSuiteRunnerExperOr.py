@@ -5,9 +5,17 @@ from selenium.webdriver.common.keys import Keys
 import time
 class TestSearchChrome(unittest.TestCase):
 	def setUp(self):
-		self.driver=webdriver.Chrome(executable_path='/home/tasu/DEV/chromedriver')
+		self.driver=webdriver.Chrome(executable_path='/home/satabdi/Downloads/chromedriver')
 		self.starttime=time.time()
 	def test_0(self):
+		driver = self.driver
+		driver.get("http://www.python.org")
+		self.assertIn("Python", driver.title)
+		elem = driver.find_element_by_name("q")
+		elem.send_keys("pycon")
+		elem.send_keys(Keys.RETURN)
+		assert "No results found." not in driver.page_source
+	def test_1(self):
 		driver = self.driver
 		driver.get("http://www.python.org")
 		self.assertIn("Python", driver.title)

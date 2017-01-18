@@ -12,7 +12,7 @@ class PythonOrgChrome(unittest.TestCase):
         #os.environ["webdriver.chrome.driver"] = chromedriver
         #self.driver=webdriver.Chrome(chromedriver)
         #self.driver = webdriver.Chrome(executable_path='/usr/bin/google-chrome')
-        self.driver=webdriver.Chrome(executable_path='/home/tasu/DEV/chromedriver')
+        self.driver=webdriver.Chrome(executable_path='/home/satabdi/Downloads/chromedriver')
 
     def test_search_in_python_org(self):
         driver = self.driver

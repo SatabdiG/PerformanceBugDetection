@@ -559,3 +559,333 @@ ATTENTION: default value of option force_s3tc_enable overridden by environment.
 1484091028178	Marionette	INFO	New connections will no longer be accepted
 [Child 25580] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
 [Child 25580] ###!!! ABORT: Aborting on channel error.: file /home/tasu/Mozilla/mozilla-central/ipc/glue/MessageChannel.cpp, line 2143
+Usage:
+    geckodriver [OPTIONS]
+geckodriver: Unknown option --port
+Usage:
+    geckodriver [OPTIONS]
+geckodriver: Unknown option --port
+Usage:
+    geckodriver [OPTIONS]
+geckodriver: Unknown option --port
+Usage:
+    geckodriver [OPTIONS]
+geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+Usage:
+    /home/satabdi/geckodriver [OPTIONS]
+/home/satabdi/geckodriver: Unknown option --port
+1484737000247	geckodriver	INFO	Listening on 127.0.0.1:33489
+1484737001246	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.xtSXzAEkWDOV
+1484737001247	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1484737001249	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42669
+1484737003721	Marionette	INFO	Listening on port 42669
+
+(firefox:6264): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6264): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6264): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6264): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6264): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6264): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1484737009449	geckodriver	INFO	Listening on 127.0.0.1:33247
+1484737010448	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.GDKL9XMGS4lS
+1484737010449	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1484737010451	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34537
+1484737011677	Marionette	INFO	Listening on port 34537
+
+(firefox:6367): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6367): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6367): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6367): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6367): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6367): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1484737016663	geckodriver	INFO	Listening on 127.0.0.1:57473
+1484737017662	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Rsu9YNxCtoV1
+1484737017663	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1484737017665	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39205
+1484737018987	Marionette	INFO	Listening on port 39205
+[Child 6436] ###!!! ABORT: Aborting on channel error.: file /build/firefox-K6StAb/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 6436] ###!!! ABORT: Aborting on channel error.: file /build/firefox-K6StAb/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 6553] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-K6StAb/firefox-50.1.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 320
+[Child 6553] ###!!! ABORT: Aborting on channel error.: file /build/firefox-K6StAb/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 6553] ###!!! ABORT: Aborting on channel error.: file /build/firefox-K6StAb/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 6321] ###!!! ABORT: Aborting on channel error.: file /build/firefox-K6StAb/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 6321] ###!!! ABORT: Aborting on channel error.: file /build/firefox-K6StAb/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+1484737206976	geckodriver	INFO	Listening on 127.0.0.1:58913
+1484737207993	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.MMuLBOx4AgrA
+1484737207994	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1484737207997	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39329
+1484737209039	Marionette	INFO	Listening on port 39329
+
+(firefox:6805): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6805): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6805): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6805): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6805): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6805): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1484737214015	geckodriver	INFO	Listening on 127.0.0.1:54615
+1484737215012	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.PBKKEBQu2mo7
+1484737215014	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1484737215016	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38015
+1484737216077	Marionette	INFO	Listening on port 38015
+
+(firefox:6913): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6913): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6913): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6913): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6913): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:6913): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1484737220908	geckodriver	INFO	Listening on 127.0.0.1:59711
+1484737221904	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eAeBf5AyJtgP
+1484737221905	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1484737221907	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34285
+1484737222976	Marionette	INFO	Listening on port 34285
+
+(firefox:7022): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7022): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7022): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7022): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7022): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7022): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1484737227890	geckodriver	INFO	Listening on 127.0.0.1:56315
+1484737228887	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.oganmHu6a8WK
+1484737228888	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1484737228890	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46575
+1484737230107	Marionette	INFO	Listening on port 46575
+
+(firefox:7132): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7132): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7132): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7132): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7132): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7132): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1484737410590	geckodriver	INFO	Listening on 127.0.0.1:40499
+1484737411602	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.xU6SWV29KRxa
+1484737411604	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484737411734	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34335
+1484737416324	Marionette	INFO	Listening on port 34335
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7405): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7405): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7405): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484737425907	geckodriver	INFO	Listening on 127.0.0.1:60141
+1484737426906	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eecH6Myokxjv
+1484737426907	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484737426909	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39845
+1484737429162	Marionette	INFO	Listening on port 39845
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7517): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7517): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7517): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484737437569	geckodriver	INFO	Listening on 127.0.0.1:45899
+1484737438568	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.MaIClHjr18Vb
+1484737438569	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484737438571	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33309
+1484737441334	Marionette	INFO	Listening on port 33309
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7641): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7641): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7641): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484737450135	geckodriver	INFO	Listening on 127.0.0.1:37457
+1484737451145	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.1DwwSUjkaIzH
+1484737451147	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484737451160	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45869
+1484737455878	Marionette	INFO	Listening on port 45869
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7940): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7940): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:7940): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1484739786294	geckodriver	INFO	Listening on 127.0.0.1:60291
+1484739787283	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.xvqSRxBmzWtS
+1484739787287	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484739787290	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37085
+1484739789648	Marionette	INFO	Listening on port 37085
+1484739902311	geckodriver	INFO	Listening on 127.0.0.1:45329
+1484739903306	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.9LU7UGTud85L
+1484739903307	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484739903312	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41505
+1484739905076	Marionette	INFO	Listening on port 41505
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9638): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9638): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9638): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484739910455	Marionette	INFO	New connections will no longer be accepted
+[Child 9638] WARNING: pipe error (12): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1484739910513	geckodriver	INFO	Listening on 127.0.0.1:53551
+1484739911510	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.QNvfGS34TEeH
+1484739911511	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484739911514	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45841
+1484739913337	Marionette	INFO	Listening on port 45841
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9741): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9741): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9741): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484739918685	Marionette	INFO	New connections will no longer be accepted
+[Child 9741] WARNING: pipe error (3): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346

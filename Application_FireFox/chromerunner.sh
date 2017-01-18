@@ -1,2 +1,2 @@
 #!/bin/bash
- python TestSuiteRunnerChrome.py  &> timechrome.txt
+ python TestSuiteRunnerExperOr.py  &> timechrome.txt
