@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9422eb7-04f8-4217-ab3d-252eccc71658" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/TestCaseFeatures/Run1/tc1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/TestCaseFeatures/Run1/tc2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TimeSortcode.iml" afterPath="$PROJECT_DIR$/.idea/TimeSortcode.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/htmlelem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/htmlkey.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/text.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/url.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/htmlelem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/htmlkey.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/text.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/url.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/time.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/TestCase/tc_0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/TestCase/tc_1.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/DriverMajor.sh" afterPath="$PROJECT_DIR$/Application_FireFox/DriverMajor.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/FrontModule.sh" afterPath="$PROJECT_DIR$/Application_FireFox/FrontModule.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunner.py" afterPath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerChrome.py" afterPath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerChrome.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExper.py" afterPath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExperOr.py" afterPath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExperOr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/backrunner.sh" afterPath="$PROJECT_DIR$/Application_FireFox/backrunner.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/chromerunner.sh" afterPath="$PROJECT_DIR$/Application_FireFox/chromerunner.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/geckodriver.log" afterPath="$PROJECT_DIR$/Application_FireFox/geckodriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/lcovDeleter.sh" afterPath="$PROJECT_DIR$/Application_FireFox/lcovDeleter.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/time.txt" afterPath="$PROJECT_DIR$/Application_FireFox/time.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/timeaut.txt" afterPath="$PROJECT_DIR$/Application_FireFox/timeaut.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/timechrome.txt" afterPath="$PROJECT_DIR$/Application_FireFox/timechrome.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/timeextractor.py" afterPath="$PROJECT_DIR$/Application_FireFox/timeextractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/unitestclassassembler.py" afterPath="$PROJECT_DIR$/Application_FireFox/unitestclassassembler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/unitestoracle.py" afterPath="$PROJECT_DIR$/Application_FireFox/unitestoracle.py" />
     </list>
     <ignored path="TimeSortcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -601,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480361297602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Changes - Reference to UI testing">
+      <created>1484755649092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484755649094</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -640,13 +639,13 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30497593" sideWeight="0.18374817" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30497593" sideWeight="0.8162518" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30497593" sideWeight="0.8162518" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
