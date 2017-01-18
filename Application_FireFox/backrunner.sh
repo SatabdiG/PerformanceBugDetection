@@ -11,5 +11,5 @@ echo "Running Seminal Behaviour script ... "
 python Seminalbehaviour.py $runnumber
 echo "Done running Seminal Behaviour script ..."
 echo "Running analysis"
-python analysis.py $runnumber
+python Analysis.py $runnumber
 echo "Done running analysis.py"

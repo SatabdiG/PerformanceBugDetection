@@ -889,3 +889,110 @@ Full stack:
 (/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9741): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
 1484739918685	Marionette	INFO	New connections will no longer be accepted
 [Child 9741] WARNING: pipe error (3): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1484758444588	geckodriver	INFO	Listening on 127.0.0.1:47883
+1484758445573	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.PQM8Ccj52dwL
+1484758445574	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484758445578	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42321
+1484758447664	Marionette	INFO	Listening on port 42321
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:19279): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:19279): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:19279): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484758453007	Marionette	INFO	New connections will no longer be accepted
+1484758496905	geckodriver	INFO	Listening on 127.0.0.1:44285
+1484758497904	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.IB6vLo5NwYzU
+1484758497906	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484758497909	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40403
+1484758499598	Marionette	INFO	Listening on port 40403
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:21034): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:21034): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:21034): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484758504445	Marionette	INFO	New connections will no longer be accepted
+[Child 21034] WARNING: pipe error (12): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1484759302645	geckodriver	INFO	Listening on 127.0.0.1:36337
+1484759303636	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.B8gR8N0dc95k
+1484759303638	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484759303642	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46831
+1484759306009	Marionette	INFO	Listening on port 46831
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:29453): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:29453): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:29453): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484759311088	Marionette	INFO	New connections will no longer be accepted
+[Child 29453] WARNING: pipe error (12): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1484759385805	geckodriver	INFO	Listening on 127.0.0.1:45983
+1484759386805	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.WkG3hO0LS3WL
+1484759386806	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484759386809	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42761
+1484759388355	Marionette	INFO	Listening on port 42761
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:375): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:375): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:375): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484759393137	Marionette	INFO	New connections will no longer be accepted
+[Child 375] WARNING: pipe error (12): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1484760230868	geckodriver	INFO	Listening on 127.0.0.1:56457
+1484760231854	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.6c8GoFJQKnGG
+1484760231855	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484760231859	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42593
+1484760234822	Marionette	INFO	Listening on port 42593
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9293): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9293): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:9293): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484760241022	Marionette	INFO	New connections will no longer be accepted
+[Child 9293] WARNING: pipe error (12): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8E0008,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9293] WARNING: pipe error: Broken pipe: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 9293] WARNING: pipe error: Broken pipe: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 9293] WARNING: pipe error: Broken pipe: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 9293] WARNING: pipe error (3): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1484763102714	geckodriver	INFO	Listening on 127.0.0.1:38589
+1484763103702	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.VnYpdygDLvK6
+1484763103704	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484763103706	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41379
+1484763105875	Marionette	INFO	Listening on port 41379
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:20503): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:20503): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:20503): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484763111152	Marionette	INFO	New connections will no longer be accepted
+[Child 20503] WARNING: pipe error (12): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1484763887531	geckodriver	INFO	Listening on 127.0.0.1:45083
+1484763888526	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fAI131xRL2u0
+1484763888527	geckodriver::marionette	INFO	Starting browser /home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox
+1484763888530	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46289
+1484763890956	Marionette	INFO	Listening on port 46289
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:28776): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:28776): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+
+(/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox:28776): dconf-CRITICAL **: unable to create file '/run/user/1000/dconf/user': Permission denied.  dconf will not work properly.
+1484763895788	Marionette	INFO	New connections will no longer be accepted
+[Child 28776] WARNING: pipe error (12): Connection reset by peer: file /home/satabdi/mozilla-central/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346

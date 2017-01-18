@@ -4,11 +4,28 @@
 #Predecessors: The TestSuite has been Run and lcov files have been generated
 
 from bs4 import BeautifulSoup
-
+import sys
 from DataStructures import Stack
 from os import listdir
 from os.path import isfile, isdir, join
+import os
 
+runno=sys.argv[1:]
+runno=map(str, runno)
+runno="".join(runno)
+
+temfile=runno.split("/")
+testcasename=temfile[len(temfile)-2]
+runname=temfile[len(temfile)-3]
+fileloc=os.path.join("./Data",runname)
+print(fileloc)
+
+if(os.path.isdir(fileloc) == False):
+    os.mkdir(fileloc)
+
+testcaseloc=os.path.join(fileloc, testcasename)
+if(os.path.isdir(testcaseloc) == False):
+    os.mkdir(testcaseloc)
 
 
 #Open config.txt file
@@ -70,7 +87,8 @@ for fil in filenames:
         #Filename
         filN=ft.name
         # Create a new File
-        fDATA=open("./Data/count"+str(count)+".txt", "w+")
+        newfilloc=os.path.join(testcaseloc, "count"+str(count)+".txt")
+        fDATA=open(newfilloc, "w+")
         fDATA.write("##"+filN)
         fDATA.write("\n")
 

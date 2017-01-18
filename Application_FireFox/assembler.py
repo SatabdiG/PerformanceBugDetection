@@ -75,7 +75,6 @@ for fil in os.listdir(testcasefeatures):
     ftestfea.close()
     count+=1
 
-
 newcount=0
 
 for i in range(0,count):
@@ -132,7 +131,7 @@ for i in range(0,count):
     htmlkey.close()
     text.close()
     data.close()
-
+    newcount+=1
 
 
 

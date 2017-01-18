@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9422eb7-04f8-4217-ab3d-252eccc71658" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/htmlelem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/htmlkey.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/url.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/htmlelem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/htmlkey.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/url.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/TestCase/tc_0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application_FireFox/TestCase/tc_1.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/Analysis.py" afterPath="$PROJECT_DIR$/Application_FireFox/Analysis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/DriverMajor.sh" afterPath="$PROJECT_DIR$/Application_FireFox/DriverMajor.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/FileParserMozilla.py" afterPath="$PROJECT_DIR$/Application_FireFox/FileParserMozilla.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/FrontModule.sh" afterPath="$PROJECT_DIR$/Application_FireFox/FrontModule.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/InputModuleNew.py" afterPath="$PROJECT_DIR$/Application_FireFox/InputModuleNew.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/data.txt" afterPath="$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/TestCase/tc_1.txt" afterPath="$PROJECT_DIR$/Application_FireFox/TestCase/tc_1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExper.py" afterPath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExperOr.py" afterPath="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExperOr.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/assembler.py" afterPath="$PROJECT_DIR$/Application_FireFox/assembler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/backrunner.sh" afterPath="$PROJECT_DIR$/Application_FireFox/backrunner.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/config.txt" afterPath="$PROJECT_DIR$/Application_FireFox/config.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/geckodriver.log" afterPath="$PROJECT_DIR$/Application_FireFox/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/timeaut.txt" afterPath="$PROJECT_DIR$/Application_FireFox/timeaut.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/timechrome.txt" afterPath="$PROJECT_DIR$/Application_FireFox/timechrome.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application_FireFox/timeextractor.py" afterPath="$PROJECT_DIR$/Application_FireFox/timeextractor.py" />
     </list>
     <ignored path="TimeSortcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,12 +35,14 @@
     <SUITE FILE_PATH="coverage/DevCode$Unittests_in_TestSuiteRunnerChrome.coverage" NAME="Unittests in TestSuiteRunnerChrome Coverage Results" MODIFIED="1484735717782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application_FireFox" />
     <SUITE FILE_PATH="coverage/TimeSortcode$FileParserMozilla__1_.coverage" NAME="FileParserMozilla (1) Coverage Results" MODIFIED="1484069775342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application" />
     <SUITE FILE_PATH="coverage/DevCode$Unittests_in_TestSuiteRunnerExper.coverage" NAME="Unittests in TestSuiteRunnerExper Coverage Results" MODIFIED="1484739786031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application_FireFox" />
+    <SUITE FILE_PATH="coverage/DevCode$assembler.coverage" NAME="assembler Coverage Results" MODIFIED="1484765507198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application_FireFox" />
     <SUITE FILE_PATH="coverage/TimeSortcode$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1477225569434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TimeSortcode$Unittests_in_TestSuiteRunner.coverage" NAME="Unittests in TestSuiteRunner Coverage Results" MODIFIED="1483990033273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application" />
     <SUITE FILE_PATH="coverage/DevCode$unitestoracle.coverage" NAME="unitestoracle Coverage Results" MODIFIED="1484739804041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application_FireFox" />
     <SUITE FILE_PATH="coverage/DevCode$unitestclassassembler__1_.coverage" NAME="unitestclassassembler (1) Coverage Results" MODIFIED="1484739779106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application_FireFox" />
     <SUITE FILE_PATH="coverage/DevCode$timeextractor.coverage" NAME="timeextractor Coverage Results" MODIFIED="1484740222736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application_FireFox" />
     <SUITE FILE_PATH="coverage/TimeSortcode$Unittests_in_TestSuiteRunnerExperOr.coverage" NAME="Unittests in TestSuiteRunnerExperOr Coverage Results" MODIFIED="1484089813196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application" />
+    <SUITE FILE_PATH="coverage/DevCode$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1484765097385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application_FireFox" />
     <SUITE FILE_PATH="coverage/TimeSortcode$InputModuleNew.coverage" NAME="InputModuleNew Coverage Results" MODIFIED="1481218211022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TimeSortcode$BlockCompare.coverage" NAME="BlockCompare Coverage Results" MODIFIED="1476887685987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TimeSortcode$unitestoracle.coverage" NAME="unitestoracle Coverage Results" MODIFIED="1484088677048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application" />
@@ -46,6 +51,7 @@
     <SUITE FILE_PATH="coverage/TimeSortcode$Unittests_in_TestSuiteRunnerExper.coverage" NAME="Unittests in TestSuiteRunnerExper Coverage Results" MODIFIED="1484090269323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application" />
     <SUITE FILE_PATH="coverage/TimeSortcode$InputModule.coverage" NAME="InputModule Coverage Results" MODIFIED="1476994305328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TimeSortcode$FileParserMozilla.coverage" NAME="FileParserMozilla Coverage Results" MODIFIED="1484092633032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application" />
+    <SUITE FILE_PATH="coverage/DevCode$InputModuleNew.coverage" NAME="InputModuleNew Coverage Results" MODIFIED="1484762107114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application_FireFox" />
     <SUITE FILE_PATH="coverage/TimeSortcode$InputModuleNew__1_.coverage" NAME="InputModuleNew (1) Coverage Results" MODIFIED="1484069702005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application" />
     <SUITE FILE_PATH="coverage/TimeSortcode$Visualization.coverage" NAME="Visualization Coverage Results" MODIFIED="1477220748945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TimeSortcode$timeextractor.coverage" NAME="timeextractor Coverage Results" MODIFIED="1484092564179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Application" />
@@ -65,32 +71,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="timeaut.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application_FireFox/timeaut.txt">
+      <file leaf-file-name="assembler.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application_FireFox/assembler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="67">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrontModule.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application_FireFox/FrontModule.sh">
+      <file leaf-file-name="InputModuleNew.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application_FireFox/InputModuleNew.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lcovDeleter.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application_FireFox/lcovDeleter.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+              <folding>
+                <element signature="e#351#380#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +106,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>range</find>
+      <find>testcasetemplate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,8 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BlockCompare.py" />
-        <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/OutPutFileUnderTest.txt" />
         <option value="$PROJECT_DIR$/InputModule.py" />
         <option value="$PROJECT_DIR$/FileEdit.py" />
@@ -160,7 +157,15 @@
         <option value="$PROJECT_DIR$/Application_FireFox/TestSuiteRunner.py" />
         <option value="$PROJECT_DIR$/Application_FireFox/unitestoracle.py" />
         <option value="$PROJECT_DIR$/Application_FireFox/chromerunner.sh" />
+        <option value="$PROJECT_DIR$/Application_FireFox/DriverMajor.sh" />
         <option value="$PROJECT_DIR$/Application_FireFox/timeextractor.py" />
+        <option value="$PROJECT_DIR$/Application_FireFox/config.txt" />
+        <option value="$PROJECT_DIR$/Application_FireFox/backrunner.sh" />
+        <option value="$PROJECT_DIR$/Application_FireFox/InputModuleNew.py" />
+        <option value="$PROJECT_DIR$/Application_FireFox/FileParserMozilla.py" />
+        <option value="$PROJECT_DIR$/Application_FireFox/FrontModule.sh" />
+        <option value="$PROJECT_DIR$/Application_FireFox/Analysis.py" />
+        <option value="$PROJECT_DIR$/Application_FireFox/assembler.py" />
       </list>
     </option>
   </component>
@@ -231,11 +236,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ParsedFiles" />
+              <option name="myItemId" value="TestCaseFeatures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application_FireFox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestCaseFeatures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Run1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application_FireFox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application_FireFox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParsedFiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,6 +310,7 @@
     <property name="last_opened_file_path" value="/usr/bin/python2.7" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/satabdi/Dropbox/MasterThesis/Dev Code/DevCode/Application_FireFox/FrontModule.sh" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -258,30 +318,30 @@
       <recent name="$PROJECT_DIR$/Application" />
     </key>
   </component>
-  <component name="RunManager" selected="Bash.lcovDeleter.sh">
-    <configuration default="false" name="chromerunner.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application_FireFox" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/chromerunner.sh" />
-      <option name="PARAMETERS" value="" />
-      <module name="TimeSortcode" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="AUTrunner.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+  <component name="RunManager" selected="Python.assembler">
+    <configuration default="false" name="DriverMajor.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="bash" />
       <option name="INTERPRETER_PATH" value="/usr/bin/env" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application_FireFox" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/AUTrunner.sh" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/DriverMajor.sh" />
       <option name="PARAMETERS" value="" />
       <module name="TimeSortcode" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="timeextractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="FrontModule.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application_FireFox" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/FrontModule.sh" />
+      <option name="PARAMETERS" value="1" />
+      <module name="TimeSortcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InputModuleNew" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -294,15 +354,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TimeSortcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/timeextractor.py" />
-      <option name="PARAMETERS" value="1" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/InputModuleNew.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in TestSuiteRunnerExperOr" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application_FireFox" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -310,27 +372,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TimeSortcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExperOr.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/Analysis.py" />
+      <option name="PARAMETERS" value="1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="lcovDeleter.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="bash" />
-      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application_FireFox" />
+    <configuration default="false" name="assembler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/lcovDeleter.sh" />
-      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application_FireFox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TimeSortcode" />
-      <envs />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application_FireFox/assembler.py" />
+      <option name="PARAMETERS" value="1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -559,19 +621,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Bash.chromerunner.sh" />
-      <item index="1" class="java.lang.String" itemvalue="Bash.AUTrunner.sh" />
-      <item index="2" class="java.lang.String" itemvalue="Python.timeextractor" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestSuiteRunnerExperOr" />
-      <item index="4" class="java.lang.String" itemvalue="Bash.lcovDeleter.sh" />
+      <item index="0" class="java.lang.String" itemvalue="Bash.DriverMajor.sh" />
+      <item index="1" class="java.lang.String" itemvalue="Bash.FrontModule.sh" />
+      <item index="2" class="java.lang.String" itemvalue="Python.InputModuleNew" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Analysis" />
+      <item index="4" class="java.lang.String" itemvalue="Python.assembler" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Bash.lcovDeleter.sh" />
-        <item index="1" class="java.lang.String" itemvalue="Python.timeextractor" />
-        <item index="2" class="java.lang.String" itemvalue="Bash.chromerunner.sh" />
-        <item index="3" class="java.lang.String" itemvalue="Bash.AUTrunner.sh" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestSuiteRunnerExperOr" />
+        <item index="0" class="java.lang.String" itemvalue="Python.assembler" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Analysis" />
+        <item index="2" class="java.lang.String" itemvalue="Bash.DriverMajor.sh" />
+        <item index="3" class="java.lang.String" itemvalue="Bash.FrontModule.sh" />
+        <item index="4" class="java.lang.String" itemvalue="Python.InputModuleNew" />
       </list>
     </recent_temporary>
   </component>
@@ -600,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484755649094</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New Changes - Reference to UI testing">
+      <created>1484755745947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484755745948</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -637,19 +706,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30497593" sideWeight="0.18374817" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23916534" sideWeight="0.19692533" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30497593" sideWeight="0.8162518" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23916534" sideWeight="0.80307466" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36276084" sideWeight="0.4736457" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36276084" sideWeight="0.46486092" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -679,6 +748,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Application_FireFox/Analysis.py</url>
+          <line>173</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -686,24 +762,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/ParsedFiles/Run1/TC0/text.txt" />
-    <entry file="file://$PROJECT_DIR$/Application/ParsedFiles/Run1/TC0/htmlkey.txt" />
-    <entry file="file://$PROJECT_DIR$/Application/ParsedFiles/Run1/TC0/htmlelem.txt" />
-    <entry file="file://$PROJECT_DIR$/Application/ParsedFiles/Run1/TC0/data.txt" />
-    <entry file="file://$PROJECT_DIR$/Application/TestSuiteRunnerChrome.py" />
-    <entry file="file://$PROJECT_DIR$/Analyzermodulenew.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/TestCase/tc1.txt" />
     <entry file="file://$PROJECT_DIR$/Application/TestCase/tc_1.txt" />
     <entry file="file://$PROJECT_DIR$/Application/TestCase/tc_0.txt" />
     <entry file="file://$PROJECT_DIR$/Application/TestSuiteRunnerExperOr.py" />
@@ -719,13 +782,6 @@
     <entry file="file://$PROJECT_DIR$/Application/InputModuleNew.py" />
     <entry file="file://$PROJECT_DIR$/Application/FileParserMozilla.py" />
     <entry file="file://$PROJECT_DIR$/Application_FireFox/DataStructures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/FileParserMozilla.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -753,45 +809,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/InputModuleNew.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/Inputfilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application_FireFox/gene.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/backrunner.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCaseFeatures/Run1/tc1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCaseFeatures/Run1/tc2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -802,50 +823,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/Analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCase/tc_0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCase/tc_1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/DriverMajor.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/assembler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#559#568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application_FireFox/TestSuiteRunnerExper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="62" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -855,15 +838,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application_FireFox/timeaut.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -889,7 +872,7 @@
         <state relative-caret-position="18">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#303#318#0" expanded="true" />
+            <element signature="e#303#318#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -926,18 +909,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/timeextractor.py">
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/config.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="18">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application_FireFox/FrontModule.sh">
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/timeextractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
+        <state relative-caret-position="223">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC1/1_loop.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/ParsedFiles/Run1/TC0/0_loop.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/Data/count1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/Data/count0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/Inputfilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/backrunner.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -946,6 +977,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/DriverMajor.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCaseFeatures/Run2/tc_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCaseFeatures/Run2/tc_2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCaseFeatures/Run1/tc1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding>
+            <element signature="e#63#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/FileParserMozilla.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="e#335#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/FrontModule.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/InputModuleNew.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+          <folding>
+            <element signature="e#351#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCaseFeatures/Run1/tc2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCase/tc_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/TestCase/tc_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application_FireFox/assembler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>

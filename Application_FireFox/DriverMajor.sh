@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Runs the front module and backmodule
-counter=0
+counter=1
 while [ $counter -lt 5 ]
 do
 echo "In Run $counter"

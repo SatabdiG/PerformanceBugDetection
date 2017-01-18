@@ -1,3 +1,3 @@
 #File is located in
-Location:/home/tasu/Mozilla/mozilla-central/coverage/browser
+Location:/home/satabdi/mozilla-central/coverage/browser
 	

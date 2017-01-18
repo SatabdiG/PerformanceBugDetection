@@ -1,9 +1,5 @@
-test_0 (__main__.TestSearch) ... ok
-test_1 (__main__.TestSearch) ... ok
 
 ----------------------------------------------------------------------
-Ran 2 tests in 16.431s
+Ran 0 tests in 0.000s
 
 OK
-__main__.TestSearch.test_0: 2.035
-__main__.TestSearch.test_1: 1.968

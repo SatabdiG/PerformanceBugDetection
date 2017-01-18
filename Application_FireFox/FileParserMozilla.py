@@ -27,13 +27,17 @@ runno=''.join(runno)
 
 tempstr=runno.split("/")
 foldername=tempstr[len(tempstr)-2]
+testcasename=tempstr[len(tempstr)-3]
 
 testcasenum=foldername.split("TC")
 testcasenum=testcasenum[len(testcasenum)-1]
 
+filpath=os.path.join("./Data", testcasename)
+testfileloc=os.path.join(filpath, foldername)
 #parsedfileloc="./ParsedFiles"
 parsedfileloc=runno
-filloc="./Data"
+#filloc=os.path.join("./Data", foldername)
+filloc=testfileloc
 #Contains the location for all files in the Data Folder
 filelocs=[]
 

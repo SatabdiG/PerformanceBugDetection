@@ -6,6 +6,7 @@ from gene import DNA
 from gene import Testcase
 import random
 import datetime
+import math
 
 #Current population - Number of new testcases that need to be generated
 populationcount=2
@@ -171,7 +172,7 @@ for i in population:
 
 #create mating pool
 for i in range(0, len(population)):
-    num=int(population[i].fitvalue*100)
+    num=int(math.fabs(population[i].fitvalue)*100)
     if(num == 0):
         num+=1
     for j in range(0, num):
