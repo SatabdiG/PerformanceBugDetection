@@ -1,0 +1,5 @@
+url="http://realfavicongenerator.net/"
+text="Favicon"
+htmlelem="site"
+data="google.com"
+htmlkey="Keys.RETURN"

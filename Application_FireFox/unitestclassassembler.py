@@ -27,7 +27,7 @@ testcasenum=testcasenum[len(testcasenum)-1]
 loc="./TestCase"
 writefile=os.path.join("./", "TestSuiteRunnerExper.py")
 
-writehandle=open(writefile, "w+")
+writehandle=open(writefile, "w")
 
 
 for file in os.listdir(loc):
@@ -59,7 +59,9 @@ writehandle.write("\t" + "def setUp(self):")
 writehandle.write("\n")
 writehandle.write("\t\t" + "binary = FirefoxBinary('/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/dist/bin/firefox')")
 writehandle.write("\n")
-writehandle.write("\t\t" + "self.driver = webdriver.Firefox(firefox_binary=binary)")
+writehandle.write("\t\t" + "browser=webdriver.FirefoxProfile('/home/satabdi/mozilla-central/obj-x86_64-pc-linux-gnu/tmp/scratch_user')")
+writehandle.write("\n")
+writehandle.write("\t\t" + "self.driver = webdriver.Firefox(firefox_binary=binary,  firefox_profile=browser)")
 writehandle.write("\n")
 writehandle.write("\t\t" + "self.starttime=time.time()")
 writehandle.write("\n")

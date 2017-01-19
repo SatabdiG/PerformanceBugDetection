@@ -27,7 +27,7 @@ testcasenum=testcasenum[len(testcasenum)-1]
 loc="./TestCase"
 writefile=os.path.join("./", "TestSuiteRunnerExperOr.py")
 
-writehandle=open(writefile, "w+")
+writehandle=open(writefile, "w")
 
 
 for file in os.listdir(loc):

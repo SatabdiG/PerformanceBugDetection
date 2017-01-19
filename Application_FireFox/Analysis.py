@@ -142,12 +142,13 @@ for i in os.listdir(filepath):
                 urlhandler.close()
 
             #create testcase obj
-            testcasename.append(testcase)
+            if(testcase not in testcasename):
+                testcasename.append(testcase)
 
 
 
 for name in testcasename:
-    tc=Testcase(urldc[testcase],htmlkeydc[testcase],htmlelemdc[testcase],datadc[testcase],textdc[testcase],timedc[testcase], name)
+    tc=Testcase(urldc[name],htmlkeydc[name],htmlelemdc[name],datadc[name],textdc[name],timedc[name], name)
     #add to populationarray
     population.append(tc)
 
@@ -189,9 +190,9 @@ for i in range(0, populationcount):
     newpopulation.append(child)
 
 
-count=1
+count=0
 for i in newpopulation:
-    testfeaturename="tc_"+str(count)
+    testfeaturename="tc"+str(count)+".txt"
     featurefil=open(os.path.join(totalpath, testfeaturename), "w+")
     featurefil.write("url="+i.url[0])
     featurefil.write("\n")
@@ -203,7 +204,6 @@ for i in newpopulation:
     featurefil.write("\n")
     featurefil.write("text=" + i.text[0])
     featurefil.write("\n")
-
     featurefil.close()
     count+=1
 

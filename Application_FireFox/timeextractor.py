@@ -29,23 +29,25 @@ autfil=open("timeaut.txt", "r+")
 chromefil=open("timechrome.txt", "r+")
 
 for eachlin in autfil.readlines():
-    if( ":" in eachlin):
-        temp=eachlin.split(":")
-        val=temp[1]
-        tst=temp[0].split(".")
-        name=tst[len(tst)-1]
-        #make an entry in the dictionary
-        autinfo[name]=float(val.strip("\n"))
+    if("ok" not in eachlin and "FAIL" not in eachlin and "ERROR" not in eachlin):
+        if( ":" in eachlin):
+            temp=eachlin.split(":")
+            val=temp[1]
+            tst=temp[0].split(".")
+            name=tst[len(tst)-1]
+            #make an entry in the dictionary
+            autinfo[name]=float(val.strip("\n"))
 
 
 for eachlin in chromefil.readlines():
-    if( ":" in eachlin):
-        temp=eachlin.split(":")
-        val=temp[1]
-        tst=temp[0].split(".")
-        name=tst[len(tst)-1]
-        #make an entry in the dictionary
-        chromeinfo[name]=float(val.strip("\n"))
+    if ("FAIL" not in eachlin and "ERROR" not in eachlin):
+        if( ":" in eachlin):
+            temp=eachlin.split(":")
+            val=temp[1]
+            tst=temp[0].split(".")
+            name=tst[len(tst)-1]
+            #make an entry in the dictionary
+            chromeinfo[name]=float(val.strip("\n"))
 
 #fileloc="./ParsedFiles/Run"+runno
 #count=0

@@ -22,4 +22,5 @@ for dr in $dir*/ ; do
     python InputModuleNew.py $dr
     echo "Running File Parser"
     python FileParserMozilla.py $dr
+    ./reset.sh
 done

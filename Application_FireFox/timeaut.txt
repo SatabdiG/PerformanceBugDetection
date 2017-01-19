@@ -1,5 +1,20 @@
-
-----------------------------------------------------------------------
-Ran 0 tests in 0.000s
-
-OK
+test_0 (__main__.TestSearch) ... Traceback (most recent call last):
+  File "TestSuiteRunnerExper.py", line 27, in <module>
+    unittest.TextTestRunner(verbosity=2).run(suite)
+  File "/usr/lib/python2.7/unittest/runner.py", line 151, in run
+    test(result)
+  File "/usr/lib/python2.7/unittest/suite.py", line 70, in __call__
+    return self.run(*args, **kwds)
+  File "/usr/lib/python2.7/unittest/suite.py", line 108, in run
+    test(result)
+  File "/usr/lib/python2.7/unittest/case.py", line 393, in __call__
+    return self.run(*args, **kwds)
+  File "/usr/lib/python2.7/unittest/case.py", line 320, in run
+    self.setUp()
+  File "TestSuiteRunnerExper.py", line 10, in setUp
+    self.driver = webdriver.Firefox(firefox_binary=binary,  firefox_profile=browser)
+  File "/home/satabdi/.local/lib/python2.7/site-packages/selenium/webdriver/firefox/webdriver.py", line 140, in __init__
+    self.service.start()
+  File "/home/satabdi/.local/lib/python2.7/site-packages/selenium/webdriver/common/service.py", line 100, in start
+    time.sleep(1)
+KeyboardInterrupt

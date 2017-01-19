@@ -4,13 +4,14 @@
 import sys
 import os
 from pymongo import MongoClient
+import math
 from DataStructures import TestCase
 
 client=MongoClient()
 db=client["firefox"]
 
 #Global variable
-MagnitudeofDiff=2
+MagnitudeofDiff=1
 
 #Take the run number as input
 runno=sys.argv[1:]
@@ -75,12 +76,12 @@ for each in timeofautdc.keys():
         timefile.write("\n")
         timediff=float(autim)-float(ortim)
         #make the database entries
-        result=db[collectionname].insert_one({"testcasename":each, "timeaut":float(autim), "value":"Y", "timeor":float(ortim)})
+        result=db[collectionname].insert_one({"testcasename":each, "timeaut":float(autim), "value":"Y", "timeor":float(ortim), "timediff":math.fabs(float(autim)-float(ortim))})
     else:
         timefile.write(os.path.join(fileloc, each) + ":" + "N")
         timefile.write("\n")
         # make the database entries
-        result = db[collectionname].insert_one({"testcasename": each, "timeaut":float(autim), "value": "N", "timeor":float(ortim)})
+        result = db[collectionname].insert_one({"testcasename": each, "timeaut":float(autim), "value": "N", "timeor":float(ortim), "timediff":math.fabs(float(autim)-float(ortim))})
 
 
 timefile.close()

@@ -7,6 +7,14 @@ class TestSearchChrome(unittest.TestCase):
 	def setUp(self):
 		self.driver=webdriver.Chrome(executable_path='/home/satabdi/Downloads/chromedriver')
 		self.starttime=time.time()
+	def test_0(self):
+		driver = self.driver
+		driver.get("https://www.google.de")
+		self.assertIn("google", driver.title)
+		elem = driver.find_element_by_name("q")
+		elem.send_keys("google.comftgyhhui,")
+		elem.send_keys(Keys.RETURN)
+		assert "No results found." not in driver.page_source
 
 	def tearDown(self):
 		self.driver.quit()

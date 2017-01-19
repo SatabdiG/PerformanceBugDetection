@@ -1,0 +1,5 @@
+url="https://www.google.de"
+text="google"
+htmlelem="q"
+data="google.comftgyhhui,"
+htmlkey="Keys.RETURN"

@@ -80,7 +80,7 @@ newcount=0
 for i in range(0,count):
     testcasetemplate = open("testcasetemplate.txt", "r+")
     # create a new file for each fil
-    filname = "tc_" + str(i) + ".txt"
+    filname = "tc" + str(i) + ".txt"
     testcasefile = open(os.path.join("./TestCase", filname), "w+")
     testcasefile.write("driver = self.driver")
     testcasefile.write("\n")
