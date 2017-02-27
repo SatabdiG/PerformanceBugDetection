@@ -1,0 +1,58 @@
+##/home/satabdi/mozilla-central/coverage/browser/components/about/AboutRedirector.cpp.gcov.html
+        560 : NS_IMPL_ISUPPORTS(AboutRedirector, nsIAboutModule)
+         92 : GetAboutModuleName(nsIURI *aURI)
+         92 :   nsAutoCString path;
+         92 :   aURI->GetPath(path);
+         92 :   int32_t f = path.FindChar('#');
+         92 :   if (f >= 0)
+         92 :   f = path.FindChar('?');
+         92 :   if (f >= 0)
+         92 :   ToLowerCase(path);
+         92 :   return path;
+          6 : AboutRedirector::NewChannel(nsIURI* aURI,
+          6 :   NS_ENSURE_ARG_POINTER(aURI);
+          6 :   nsAutoCString path = GetAboutModuleName(aURI);
+         18 :   nsCOMPtr<nsIIOService> ioService = do_GetIOService(&rv);
+          6 :   NS_ENSURE_SUCCESS(rv, rv);
+        172 :   for (int i = 0; i < kRedirTotal; i++) {
+         89 :     if (!strcmp(path.get(), kRedirMap[i].id)) {
+         12 :       nsAutoCString url;
+          6 :       if (path.EqualsLiteral("newtab")) {
+         10 :           do_GetService("@mozilla.org/browser/aboutnewtab-service;1", &rv);
+          5 :         NS_ENSURE_SUCCESS(rv, rv);
+          5 :         rv = aboutNewTabService->GetDefaultURL(url);
+          5 :         NS_ENSURE_SUCCESS(rv, rv);
+          5 :         bool remoteEnabled = false;
+          5 :         rv = aboutNewTabService->GetRemoteEnabled(&remoteEnabled);
+          5 :         NS_ENSURE_SUCCESS(rv, rv);
+          5 :         if (remoteEnabled) {
+          6 :       if (url.IsEmpty()) {
+          1 :         url.AssignASCII(kRedirMap[i].url);
+          6 :       nsCOMPtr<nsIChannel> tempChannel;
+         12 :       nsCOMPtr<nsIURI> tempURI;
+          6 :       rv = NS_NewURI(getter_AddRefs(tempURI), url);
+          6 :       NS_ENSURE_SUCCESS(rv, rv);
+          6 :       bool isUIResource = false;
+          6 :       rv = NS_URIChainHasFlags(tempURI, nsIProtocolHandler::URI_IS_UI_RESOURCE,
+          6 :       NS_ENSURE_SUCCESS(rv, rv);
+          6 :                     ? static_cast<nsLoadFlags>(nsIChannel::LOAD_NORMAL)
+          6 :                     : static_cast<nsLoadFlags>(nsIChannel::LOAD_REPLACE);
+         12 :       rv = NS_NewChannelInternal(getter_AddRefs(tempChannel),
+          6 :       NS_ENSURE_SUCCESS(rv, rv);
+          6 :       tempChannel->SetOriginalURI(aURI);
+          6 :       NS_ADDREF(*result = tempChannel);
+          6 :       return rv;
+         86 : AboutRedirector::GetURIFlags(nsIURI *aURI, uint32_t *result)
+         86 :   NS_ENSURE_ARG_POINTER(aURI);
+         86 :   nsAutoCString name = GetAboutModuleName(aURI);
+       1258 :   for (int i = 0; i < kRedirTotal; i++) {
+       1258 :     if (name.Equals(kRedirMap[i].id)) {
+         86 :       *result = kRedirMap[i].flags;
+         86 :       return NS_OK;
+          1 : AboutRedirector::Create(nsISupports *aOuter, REFNSIID aIID, void **result)
+          2 :   AboutRedirector* about = new AboutRedirector();
+          1 :   if (about == nullptr)
+          1 :   NS_ADDREF(about);
+          1 :   nsresult rv = about->QueryInterface(aIID, result);
+          1 :   NS_RELEASE(about);
+          1 :   return rv;

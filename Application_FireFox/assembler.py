@@ -82,8 +82,8 @@ for i in range(0,count):
     # create a new file for each fil
     filname = "tc" + str(i) + ".txt"
     testcasefile = open(os.path.join("./TestCase", filname), "w+")
-    testcasefile.write("driver = self.driver")
-    testcasefile.write("\n")
+    #testcasefile.write("driver = self.driver")
+    #testcasefile.write("\n")
     # Files that need to created in the Run folder
     newfolname="TC"+str(i)
     newtemp=os.path.join(newrunloc,newfolname)
@@ -119,11 +119,14 @@ for i in range(0,count):
             htmlkey.write(mapdiction["htmlkey"][newcount])
             htmlkey.write("\n")
             newstr=readline.replace("htmlkey",mapdiction["htmlkey"][newcount])
+        else:
+            newstr=readline
+
         #write new str into the newly created testcase file
         testcasefile.write(newstr)
         #testcasefile.write("\n")
-    testcasefile.write('assert "No results found." not in driver.page_source')
-    testcasefile.write("\n")
+    #testcasefile.write('assert "No results found." not in driver.page_source')
+    #testcasefile.write("\n")
     testcasefile.close()
     testcasetemplate.close()
     urlfil.close()

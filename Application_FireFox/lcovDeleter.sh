@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ##This script is run after TestSuiteRunner. It removes the old lcov files and recreates the lcov files
-cd /home/satabdi/mozilla-central/
+cd /home/satabdi/mozilla/bug1250037/with/mozilla-central
 find . -name jchuff.gcda -delete
 lcov -c -d . -o coverage.info
 genhtml -o coverage coverage.info

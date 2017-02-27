@@ -1,0 +1,58 @@
+##/home/satabdi/mozilla-central/coverage/browser/app/nsBrowserApp.cpp.gcov.html
+          3 : static bool IsArg(const char* arg, const char* s)
+          3 :   if (*arg == '-')
+          3 :     if (*++arg == '-')
+          3 :     return !strcasecmp(arg, s);
+          1 : static int do_main(int argc, char* argv[], char* envp[], nsIFile *xreDirectory)
+          2 :   nsCOMPtr<nsIFile> appini;
+          1 :   uint32_t mainFlags = 0;
+          1 :   const char *appDataFile = getenv("XUL_APP_FILE");
+          1 :   if (appDataFile && *appDataFile) {
+          1 :   else if (argc > 1 && IsArg(argv[1], "app")) {
+          1 :   } else if (argc > 1 && IsArg(argv[1], "xpcshell")) {
+          2 :   XREAppData appData;
+          1 :   appData.xreDirectory = xreDirectory;
+          1 :   if (appini) {
+          1 :     appData = sAppData;
+          2 :     nsCOMPtr<nsIFile> exeFile;
+          1 :     rv = mozilla::BinaryPath::GetFile(argv[0], getter_AddRefs(exeFile));
+          1 :     if (NS_FAILED(rv)) {
+          2 :     nsCOMPtr<nsIFile> greDir;
+          2 :     exeFile->GetParent(getter_AddRefs(greDir));
+          2 :     nsCOMPtr<nsIFile> appSubdir;
+          2 :     greDir->Clone(getter_AddRefs(appSubdir));
+          2 :     appSubdir->Append(NS_LITERAL_STRING(kDesktopFolder));
+          1 :     appData.directory = appSubdir;
+          1 :   return XRE_main(argc, argv, appData, mainFlags);
+          1 : FileExists(const char *path)
+          1 :   return access(path, R_OK) == 0;
+          1 : InitXPCOMGlue(const char *argv0, nsIFile **xreDirectory)
+          1 :   nsresult rv = mozilla::BinaryPath::Get(argv0, exePath);
+          1 :   if (NS_FAILED(rv)) {
+          2 :   char *lastSlash = strrchr(exePath, XPCOM_FILE_PATH_SEPARATOR[0]);
+          2 :   if (!lastSlash ||
+          1 :       (size_t(lastSlash - exePath) > MAXPATHLEN - sizeof(XPCOM_DLL) - 1))
+          2 :   strcpy(lastSlash + 1, XPCOM_DLL);
+          1 :   if (!FileExists(exePath)) {
+          1 :   XPCOMGlueEnablePreload();
+          1 :   rv = XPCOMGlueStartup(exePath);
+          1 :   if (NS_FAILED(rv)) {
+          1 :   rv = XPCOMGlueLoadXULFunctions(kXULFuncs);
+          1 :   if (NS_FAILED(rv)) {
+          1 :   NS_LogInit();
+          1 :   if (xreDirectory) {
+          1 :     *lastSlash = '\0';
+          2 :     rv = NS_NewNativeLocalFile(nsDependentCString(exePath), false,
+          1 :                                xreDirectory);
+          1 : int main(int argc, char* argv[], char* envp[])
+          1 :   mozilla::TimeStamp start = mozilla::TimeStamp::Now();
+          1 :   if (argc > 1 && IsArg(argv[1], "contentproc")) {
+          1 :   nsCOMPtr<nsIFile> xreDirectory;
+          1 :   nsresult rv = InitXPCOMGlue(argv[0], getter_AddRefs(xreDirectory));
+          1 :   if (NS_FAILED(rv)) {
+          1 :   XRE_StartupTimelineRecord(mozilla::StartupTimeline::START, start);
+          1 :   XRE_EnableSameExecutableForContentProc();
+          1 :   int result = do_main(argc, argv, envp, xreDirectory);
+          1 :   xreDirectory = nullptr;
+          1 :   NS_LogTerm();
+          1 :   return result;

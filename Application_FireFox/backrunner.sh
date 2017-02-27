@@ -4,6 +4,10 @@
 #take as an arugment the Runnumber
 runnumber=$1
 echo "Current Run number is $runnumber"
+echo "Running code overlap"
+python codeoverlapextractor.py $runnumber
+echo "Running blocks common"
+python blockscommon.py $runnumber
 echo "Running Inputfilter ... "
 python Inputfilter.py $runnumber
 echo "Done running Input filter ..."

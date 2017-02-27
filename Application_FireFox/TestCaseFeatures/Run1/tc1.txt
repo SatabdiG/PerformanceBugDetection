@@ -1,5 +1,5 @@
 url="http://www.python.org"
 text="Python"
-htmlelem="q"
-data="abcd"
+htmlelem="Downloads"
+data="Community"
 htmlkey="Keys.RETURN"

@@ -10,7 +10,7 @@ dir="./ParsedFiles/Run$runnumber/"
 echo "Current directory is $dir"
 #Now get all dirs in in dir variable
 for dr in $dir*/ ; do
-    #echo "The directories are :$dr"
+    echo "The directories are :$dr"
     #pass dr as argument to unittestclassassembler.py
     python unitestclassassembler.py $dr
     python unitestoracle.py $dr

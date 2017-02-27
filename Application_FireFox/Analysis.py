@@ -146,11 +146,27 @@ for i in os.listdir(filepath):
                 testcasename.append(testcase)
 
 
+for tc in testcasename:
+    if tc not in timedc.keys():
+        timedc[tc]=['0:0']
+
 
 for name in testcasename:
-    tc=Testcase(urldc[name],htmlkeydc[name],htmlelemdc[name],datadc[name],textdc[name],timedc[name], name)
-    #add to populationarray
-    population.append(tc)
+
+   if(name not in textdc.keys()):
+       textdc[name]=[]
+   elif name not in htmlelemdc.keys() == []:
+       htmlelemdc[name]=[]
+   elif name not in htmlkeydc.keys()==[]:
+       htmlkeydc[name]=[]
+   elif name not in datadc.keys()==[]:
+       datadc[name]=[]
+   elif name not in timedc.keys() == []:
+       timedc[name] = []
+
+   tc=Testcase(urldc[name],htmlkeydc[name],htmlelemdc[name],datadc[name],textdc[name],timedc[name], name)
+   #add to populationarray
+   population.append(tc)
 
 
 ##### End Setup ####
@@ -167,6 +183,8 @@ for name in cursor:
 for i in population:
     #assign fitness
     name=i.name
+    if name not in timediffaut.keys():
+        timediffaut[name]=0
     fitval=timediffaut[name]/totaltime
     i.setfitness(fitval)
 
@@ -194,16 +212,20 @@ count=0
 for i in newpopulation:
     testfeaturename="tc"+str(count)+".txt"
     featurefil=open(os.path.join(totalpath, testfeaturename), "w+")
-    featurefil.write("url="+i.url[0])
-    featurefil.write("\n")
+    if(i.url!=[]):
+        featurefil.write("url="+i.url[0])
+        featurefil.write("\n")
     featurefil.write("htmlelem=" + i.htmlelem[0])
     featurefil.write("\n")
-    featurefil.write("data=" + i.data[0])
-    featurefil.write("\n")
-    featurefil.write("htmlkey=" + i.htmlkey[0])
-    featurefil.write("\n")
-    featurefil.write("text=" + i.text[0])
-    featurefil.write("\n")
+    if(i.data!=[]):
+        featurefil.write("data=" + i.data[0])
+        featurefil.write("\n")
+    if(i.htmlkey!=[]):
+        featurefil.write("htmlkey=" + i.htmlkey[0])
+        featurefil.write("\n")
+    if(i.text!=[]):
+        featurefil.write("text=" + i.text[0])
+        featurefil.write("\n")
     featurefil.close()
     count+=1
 

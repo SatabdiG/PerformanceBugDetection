@@ -1,0 +1,40 @@
+##/home/satabdi/mozilla-central/coverage/browser/components/shell/nsGNOMEShellService.cpp.gcov.html
+          1 : nsGNOMEShellService::Init()
+          2 :   nsCOMPtr<nsIGConfService> gconf = do_GetService(NS_GCONFSERVICE_CONTRACTID);
+          2 :     do_GetService(NS_GIOSERVICE_CONTRACTID);
+          2 :     do_GetService(NS_GSETTINGSSERVICE_CONTRACTID);
+          1 :   if (!gconf && !giovfs && !gsettings)
+          1 :   mUseLocaleFilenames = PR_GetEnv("G_BROKEN_FILENAMES") != nullptr;
+          1 :   if (GetAppPathFromLauncher())
+          1 :     (do_GetService("@mozilla.org/file/directory_service;1"));
+          1 :   NS_ENSURE_TRUE(dirSvc, NS_ERROR_NOT_AVAILABLE);
+          1 :   nsCOMPtr<nsIFile> appPath;
+          2 :   rv = dirSvc->Get(XRE_EXECUTABLE_FILE, NS_GET_IID(nsIFile),
+          3 :                    getter_AddRefs(appPath));
+          1 :   NS_ENSURE_SUCCESS(rv, rv);
+          1 :   return appPath->GetNativePath(mAppPath);
+         82 : NS_IMPL_ISUPPORTS(nsGNOMEShellService, nsIGNOMEShellService, nsIShellService)
+          1 : nsGNOMEShellService::GetAppPathFromLauncher()
+          1 :   const char *launcher = PR_GetEnv("MOZ_APP_LAUNCHER");
+          1 :   if (!launcher)
+          5 : nsGNOMEShellService::KeyMatchesAppName(const char *aKeyValue) const
+          5 :   if (mUseLocaleFilenames) {
+          5 :     commandPath = g_find_program_in_path(aKeyValue);
+          5 :   if (!commandPath)
+          5 : nsGNOMEShellService::CheckHandlerMatchesAppName(const nsACString &handler) const
+         10 :   nsAutoCString command(handler);
+          5 :   if (g_shell_parse_argv(command.get(), &argc, &argv, nullptr) && argc > 0) {
+          5 :   if (!KeyMatchesAppName(command.get()))
+          5 : nsGNOMEShellService::IsDefaultBrowser(bool aStartupCheck,
+          5 :   *aIsDefaultBrowser = false;
+         10 :   nsCOMPtr<nsIGConfService> gconf = do_GetService(NS_GCONFSERVICE_CONTRACTID);
+         10 :   nsCOMPtr<nsIGIOService> giovfs = do_GetService(NS_GIOSERVICE_CONTRACTID);
+         10 :   nsAutoCString handler;
+         10 :   nsCOMPtr<nsIGIOMimeApp> gioApp;
+          5 :   for (unsigned int i = 0; i < ArrayLength(appProtocols); ++i) {
+          5 :     if (!appProtocols[i].essential)
+          5 :     if (gconf) {
+          5 :       handler.Truncate();
+         15 :       gconf->GetAppForProtocol(nsDependentCString(appProtocols[i].name),
+         10 :                                &enabled, handler);
+          5 :       if (!CheckHandlerMatchesAppName(handler) || !enabled)

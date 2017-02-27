@@ -5,8 +5,6 @@ import sys
 from pymongo import MongoClient
 import os
 
-
-
 client=MongoClient()
 db=client["firefox"]
 

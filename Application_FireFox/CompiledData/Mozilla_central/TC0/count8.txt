@@ -1,0 +1,85 @@
+##/home/satabdi/mozilla-central/coverage/browser/components/feeds/nsFeedSniffer.cpp.gcov.html
+        110 : NS_IMPL_ISUPPORTS(nsFeedSniffer,
+          7 : nsFeedSniffer::ConvertEncodedData(nsIRequest* request,
+          7 :   nsresult rv = NS_OK;
+         14 :  mDecodedData = "";
+         14 :  nsCOMPtr<nsIHttpChannel> httpChannel(do_QueryInterface(request));
+          7 :   if (!httpChannel)
+          7 :   nsAutoCString contentEncoding;
+         21 :   httpChannel->GetResponseHeader(NS_LITERAL_CSTRING("Content-Encoding"), 
+         14 :                                  contentEncoding);
+          7 :   if (!contentEncoding.IsEmpty()) {
+          8 :     nsCOMPtr<nsIStreamConverterService> converterService(do_GetService(NS_STREAMCONVERTERSERVICE_CONTRACTID));
+          4 :     if (converterService) {
+          4 :       ToLowerCase(contentEncoding);
+          8 :       nsCOMPtr<nsIStreamListener> converter;
+          8 :       rv = converterService->AsyncConvertData(contentEncoding.get(), 
+         12 :                                               getter_AddRefs(converter));
+          4 :       NS_ENSURE_SUCCESS(rv, rv);
+          4 :       converter->OnStartRequest(request, nullptr);
+          8 :         do_CreateInstance(NS_STRINGINPUTSTREAM_CONTRACTID);
+          4 :       if (!rawStream)
+          4 :       rv = rawStream->SetData((const char*)data, length);
+          4 :       NS_ENSURE_SUCCESS(rv, rv);
+          8 :       rv = converter->OnDataAvailable(request, nullptr, rawStream, 0, length);
+          4 :       NS_ENSURE_SUCCESS(rv, rv);
+          4 :       converter->OnStopRequest(request, nullptr, NS_OK);
+         21 : ContainsTopLevelSubstring(nsACString& dataString, const char *substring) 
+         42 :   nsACString::const_iterator start, end;
+         21 :   dataString.BeginReading(start);
+         21 :   dataString.EndReading(end);
+         42 :   if (!FindInReadable(nsCString(substring), start, end)){
+         15 : nsFeedSniffer::GetMIMETypeFromContent(nsIRequest* request, 
+         30 :   nsCOMPtr<nsIHttpChannel> channel(do_QueryInterface(request));
+         15 :   if (!channel)
+          7 :   nsAutoCString method;
+          7 :   channel->GetRequestMethod(method);
+          7 :   if (!method.EqualsLiteral("GET")) {
+          7 :   nsCOMPtr<nsIURI> originalURI;
+         14 :   channel->GetOriginalURI(getter_AddRefs(originalURI));
+         14 :   nsAutoCString scheme;
+          7 :   originalURI->GetScheme(scheme);
+          7 :   if (scheme.EqualsLiteral("view-source")) {
+          7 :   nsAutoCString contentType;
+          7 :   channel->GetContentType(contentType);
+         14 :   bool noSniff = contentType.EqualsLiteral(TYPE_RSS) ||
+         14 :                    contentType.EqualsLiteral(TYPE_ATOM);
+          7 :   if (!noSniff) {
+         14 :     nsAutoCString sniffHeader;
+         21 :       channel->GetRequestHeader(NS_LITERAL_CSTRING("X-Moz-Is-Feed"),
+         14 :                                 sniffHeader);
+          7 :     noSniff = NS_SUCCEEDED(foundHeader);
+          7 :   if (noSniff) {
+         14 :   if (!contentType.EqualsLiteral(TEXT_HTML) &&
+          7 :       !contentType.EqualsLiteral(APPLICATION_OCTET_STREAM) &&
+          7 :   nsresult rv = ConvertEncodedData(request, data, length);
+          7 :   if (NS_FAILED(rv))
+          7 :   if (mDecodedData.IsEmpty()) {
+          3 :     testData = (const char*)data;
+          6 :     length = std::min(length, MAX_BYTES);
+          4 :     testData = mDecodedData.get();
+          8 :     length = std::min(mDecodedData.Length(), MAX_BYTES);
+         14 :   nsDependentCSubstring dataString((const char*)testData, length);
+          7 :   bool isFeed = false;
+          7 :   isFeed = ContainsTopLevelSubstring(dataString, "<rss");
+          7 :   if (!isFeed)
+          7 :     isFeed = ContainsTopLevelSubstring(dataString, "<feed");
+          7 :   if (!isFeed) {
+         21 :     bool foundNS_RDF = FindInReadable(NS_LITERAL_CSTRING(NS_RDF), dataString);
+         21 :     bool foundNS_RSS = FindInReadable(NS_LITERAL_CSTRING(NS_RSS), dataString);
+          7 :     isFeed = ContainsTopLevelSubstring(dataString, "<rdf:RDF") &&
+          7 :       foundNS_RDF && foundNS_RSS;
+          7 :   if (isFeed && !HasAttachmentDisposition(channel))
+          7 :   return NS_OK;
+          4 : nsFeedSniffer::OnStartRequest(nsIRequest* request, nsISupports* context)
+          4 :   return NS_OK;
+          6 : nsFeedSniffer::AppendSegmentToString(nsIInputStream* inputStream,
+          6 :   nsCString* decodedData = static_cast<nsCString*>(closure);
+          6 :   decodedData->Append(rawSegment, count);
+          6 :   *writeCount = count;
+          6 :   return NS_OK;
+          6 : nsFeedSniffer::OnDataAvailable(nsIRequest* request, nsISupports* context,
+          6 :   return stream->ReadSegments(AppendSegmentToString, &mDecodedData, count, 
+         12 :                               &read);
+          4 : nsFeedSniffer::OnStopRequest(nsIRequest* request, nsISupports* context, 
+          4 :   return NS_OK; 

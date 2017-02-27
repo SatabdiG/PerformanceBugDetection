@@ -1,0 +1,3 @@
+##/home/satabdi/mozilla-central/coverage/browser/components/dirprovider/DirectoryProvider.h.gcov.html
+          3 : class DirectoryProvider final : public nsIDirectoryServiceProvider2
+          3 :     ~AppendingEnumerator() {}

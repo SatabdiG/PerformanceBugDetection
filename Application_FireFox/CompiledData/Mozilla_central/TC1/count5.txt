@@ -1,0 +1,2 @@
+##/home/satabdi/mozilla-central/coverage/browser/components/shell/nsGNOMEShellService.h.gcov.html
+          4 :   nsGNOMEShellService() : mAppIsInPath(false) { }

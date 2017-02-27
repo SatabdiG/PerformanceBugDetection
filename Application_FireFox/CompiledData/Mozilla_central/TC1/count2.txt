@@ -1,0 +1,3 @@
+##/home/satabdi/mozilla-central/coverage/browser/components/about/AboutRedirector.h.gcov.html
+          3 :   AboutRedirector() {}
+          2 :   virtual ~AboutRedirector() {}

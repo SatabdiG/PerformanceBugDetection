@@ -1,0 +1,56 @@
+##/home/satabdi/mozilla-central/coverage/browser/components/dirprovider/DirectoryProvider.cpp.gcov.html
+        135 : NS_IMPL_ISUPPORTS(DirectoryProvider,
+         25 : DirectoryProvider::GetFile(const char *aKey, bool *aPersist, nsIFile* *aResult)
+         25 :   return NS_ERROR_FAILURE;
+          1 : AppendFileKey(const char *key, nsIProperties* aDirSvc,
+          1 :   nsCOMPtr<nsIFile> file;
+          2 :   nsresult rv = aDirSvc->Get(key, NS_GET_IID(nsIFile), getter_AddRefs(file));
+          1 :   if (NS_FAILED(rv))
+          1 :     return;
+          1 :   rv = file->Exists(&exists);
+          1 :   if (NS_FAILED(rv) || !exists)
+          1 : AppendDistroSearchDirs(nsIProperties* aDirSvc, nsCOMArray<nsIFile> &array)
+          1 :   nsCOMPtr<nsIFile> searchPlugins;
+          1 :   nsresult rv = aDirSvc->Get(XRE_APP_DISTRIBUTION_DIR,
+          3 :                              getter_AddRefs(searchPlugins));
+          1 :   if (NS_FAILED(rv))
+          1 :     return;
+          3 :   searchPlugins->AppendNative(NS_LITERAL_CSTRING("searchplugins"));
+          1 :   rv = searchPlugins->Exists(&exists);
+          1 :   if (NS_FAILED(rv) || !exists)
+         24 : DirectoryProvider::GetFiles(const char *aKey, nsISimpleEnumerator* *aResult)
+         24 :   if (!strcmp(aKey, NS_APP_DISTRIBUTION_SEARCH_DIR_LIST)) {
+          2 :       (do_GetService(NS_DIRECTORY_SERVICE_CONTRACTID));
+          1 :     if (!dirSvc)
+          1 :     nsCOMArray<nsIFile> distroFiles;
+          1 :     AppendDistroSearchDirs(dirSvc, distroFiles);
+          1 :     return NS_NewArrayEnumerator(aResult, distroFiles);
+         23 :   if (!strcmp(aKey, NS_APP_SEARCH_DIR_LIST)) {
+          2 :       (do_GetService(NS_DIRECTORY_SERVICE_CONTRACTID));
+          1 :     if (!dirSvc)
+          1 :     nsCOMArray<nsIFile> baseFiles;
+          1 :     AppendFileKey(NS_APP_USER_SEARCH_DIR, dirSvc, baseFiles);
+          2 :     nsCOMPtr<nsISimpleEnumerator> baseEnum;
+          1 :     rv = NS_NewArrayEnumerator(getter_AddRefs(baseEnum), baseFiles);
+          1 :     if (NS_FAILED(rv))
+          1 :     nsCOMPtr<nsISimpleEnumerator> list;
+          2 :     rv = dirSvc->Get(XRE_EXTENSIONS_DIR_LIST,
+          3 :                      NS_GET_IID(nsISimpleEnumerator), getter_AddRefs(list));
+          1 :     if (NS_FAILED(rv))
+          2 :       new AppendingEnumerator(list, kAppendSPlugins);
+          1 :     if (!extEnum)
+          2 :     return NS_NewUnionEnumerator(aResult, extEnum, baseEnum);
+         10 : NS_IMPL_ISUPPORTS(DirectoryProvider::AppendingEnumerator, nsISimpleEnumerator)
+          1 : DirectoryProvider::AppendingEnumerator::HasMoreElements(bool *aResult)
+          2 :   *aResult = mNext ? true : false;
+          1 :   return NS_OK;
+          1 : DirectoryProvider::AppendingEnumerator::GetNext(nsISupports* *aResult)
+          1 :   if (aResult)
+          1 :   mNext = nullptr;
+          2 :   while (NS_SUCCEEDED(mBase->HasMoreElements(&more)) && more) {
+          1 :   return NS_OK;
+          1 : DirectoryProvider::AppendingEnumerator::AppendingEnumerator
+          1 :      char const *const *aAppendList) :
+          4 :   mAppendList(aAppendList)
+          1 :   GetNext(nullptr);
+          1 : }
